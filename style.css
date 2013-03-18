@@ -1,3 +1,4 @@
+
 /*
 Theme Name: Aerodrome
 Theme URI: http://thebuckmaker.com/aerodrome
@@ -18,7 +19,7 @@ Version: 1.0.5
 
 a {
         color: #000;
-        text-decoration:none;
+        text-decoration:underline;
         font-weight:bold;
 }
 
@@ -48,7 +49,7 @@ blockquote {
 /*+++++ replace "(images/default.jpg)" with another image from the /images directory of the theme ++++*/
 
 body {
-        background: url(images/default.jpg) no-repeat 0 0 #fff;
+        background: url(http://2012.stateofthemap.org/wp-content/uploads/2012/04/background_japan_red.jpg) no-repeat 0 0 #d99179;
         background-attachment:fixed;
         background-position: center center;
         color: #000;
@@ -82,7 +83,7 @@ h3 {
 
 
 p, li {
-        font: 13px 'Arial', Verdana, sans-serif;
+        font: 12px 'Arial', Verdana, sans-serif;
         line-height:17px;
 }
 
@@ -112,78 +113,40 @@ p, li {
 
 /* ++++++++++++++++++ The Header Section ++++++++++++++++++ */
 
-#header {
-        width:970px;
-        font-family: Verdana, Arial, sans-serif;
-        overflow:hidden;
-        margin:0;
-        padding: 5px 0 10px 0;
-        background:#000;
-
-
-
-         -webkit-border-top-left-radius:0px;
-         -webkit-border-top-right-radius:10px;
-         -webkit-border-bottom-left-radius:0px;
-         -webkit-border-bottom-right-radius:10px;
-
-         -khtml-border-radius-topleft:0px;
-         -khtml-border-radius-topright:10px;
-         -khtml-border-radius-bottomleft:0px;
-         -khtml-border-radius-bottomright:10px;
-
-         -moz-border-radius-topleft:0px;
-         -moz-border-radius-topright:10px;
-         -moz-border-radius-bottomleft:0px;
-         -moz-border-radius-bottomright:10px;
+#headernew {
+	position:relative;
+	background: url('http://2012.stateofthemap.org/wp-content/uploads/2011/02/11header_background.png');
+	height:174px;
+	width: 935px;
+	margin:0px 0px 14px 35px;
+	padding: 0px;
 }
 
-#header a {
+#headernew a {
         color: #fff;
+}
+
+#headernew h1 {
         text-decoration: none;
+	position:absolute;
+	left: 225px;
+	top: 70px;
+	color: #fff;
+	font-size:20px;
+	font-weight: bold;
+	margin:0px;
+	padding:0px;
 }
 
-#header a:hover {
-        text-decoration: none;
-}
-
-#header h1 {font-family:verdana,arial,sans-serif;
-            font-size:29px;
-            margin: 15px 0 0 15px;
-            padding:0;
-            color:#fff;
-            z-index:1;
-
-}
-
-#header h1 a:hover {}
-
-#header h2 {margin-top:0px;
-            font-family: verdana, arial, sans-serif;
-            font-size:13px;
-            color:#fff;
-            margin-left:20px;
-
-}
-
-#headerleft {
-            float:left;
-            width:405px;
-
-}
-
-
-#headerright a {
-        background:url(images/rss2.jpg) no-repeat -1px -64px #000;
-        width:60px;
-        height:59px;
-        cursor:pointer;
-        float:right;
-        margin:10px 20px 0 0;
-}
-
-#headerright a:hover {
-        background:url(images/rss2.jpg) no-repeat -1px -1px;
+#headernew h2 {
+	position:absolute; 
+	left: 225px;
+	top: 92px;
+	color: #ff0000;
+	width: 400px;
+	margin:0px;
+	padding:0px;
+	font-weight:bold;
 }
 
 .navlink {
@@ -207,103 +170,26 @@ p, li {
 
 
 #headmenu {
-font-family: verdana, arial, sans-serif;
-font-size:14px;
-width:970px;
-font-weight:bold;
-float:none;
-margin:30px 0 0 0;
-color:#fff;
-overflow:hidden;
+	position:absolute;
+	left: 134px;
+	top: 6px;
+	margin:0px;
+	padding:0px;
+	font-size: 12px;
+	z-index:200;
 }
-
 
 #headmenu a {
-         color:#000;
-         background:#fff;
-         padding:4px 10px 6px 10px;
-         margin:5px 3px 0 0;
-         line-height:21px;
-
-
-
-         -webkit-border-top-left-radius:5px;
-         -webkit-border-top-right-radius:5px;
-         -webkit-border-bottom-left-radius:0px;
-         -webkit-border-bottom-right-radius:0px;
-
-         -khtml-border-radius-topleft:5px;
-         -khtml-border-radius-topright:5px;
-         -khtml-border-radius-bottomleft:0px;
-         -khtml-border-radius-bottomright:0px;
-
-         -moz-border-radius-topleft:5px;
-         -moz-border-radius-topright:5px;
-         -moz-border-radius-bottomleft:0px;
-         -moz-border-radius-bottomright:0px;
-
+	margin-right:15px; 
+	color: #202420;
 }
 
 
-#headmenu a:hover {text-decoration:none; color:#fff; background:#000;}
 #headmenu ul {margin:0; padding:0}
-#headmenu ul li {float:left;
-            list-style-type:none;
+#headmenu ul li {
+	float:left;
+	list-style-type:none;
 }
-
-#headsubmenu {
-padding:0; 
-margin:-55px 0 0 0;
-height:25px;
-width:100%;
-float:left;
-
-
-		 }
-#headsubmenu ul {
-margin:0; padding:0;
-background:#000;
-}
-
-#headsubmenu li {
-float:left;
-list-style-type:none;
-margin:3px 0 0 0;
-
-}
-
-#headsubmenu li a {
-
-font-size:11px;
-padding:2px 10px;
-line-height:18px;
-background:#fff;
-color:#000;
-margin-left:2px;
-
-         -webkit-border-top-left-radius:0px;
-         -webkit-border-top-right-radius:0px;
-         -webkit-border-bottom-left-radius:5px;
-         -webkit-border-bottom-right-radius:5px;
-
-         -khtml-border-radius-topleft:0px;
-         -khtml-border-radius-topright:0px;
-         -khtml-border-radius-bottomleft:5px;
-         -khtml-border-radius-bottomright:5px;
-
-         -moz-border-radius-topleft:0px;
-         -moz-border-radius-topright:0px;
-         -moz-border-radius-bottomleft:5px;
-         -moz-border-radius-bottomright:5px;
-}
-
-#headsubmenu li a:hover {
-background:#000;
-color:#fff;
-
-
-}
-
 
 #headmenu2 {
 font-family: verdana, arial, sans-serif;
@@ -324,20 +210,6 @@ overflow:hidden;
          margin:0 3px 0 0;
          line-height:21px;
 
-         -webkit-border-top-left-radius:0px;
-         -webkit-border-top-right-radius:0px;
-         -webkit-border-bottom-left-radius:5px;
-         -webkit-border-bottom-right-radius:5px;
-
-         -khtml-border-radius-topleft:0px;
-         -khtml-border-radius-topright:0px;
-         -khtml-border-radius-bottomleft:5px;
-         -khtml-border-radius-bottomright:5px;
-
-         -moz-border-radius-topleft:0px;
-         -moz-border-radius-topright:0px;
-         -moz-border-radius-bottomleft:5px;
-         -moz-border-radius-bottomright:5px;
 
 }
 
@@ -356,20 +228,6 @@ overflow:hidden;
          line-height:21px;
          font-weight:bold;
 
-         -webkit-border-top-left-radius:0px;
-         -webkit-border-top-right-radius:0px;
-         -webkit-border-bottom-left-radius:5px;
-         -webkit-border-bottom-right-radius:5px;
-
-         -khtml-border-radius-topleft:0px;
-         -khtml-border-radius-topright:0px;
-         -khtml-border-radius-bottomleft:5px;
-         -khtml-border-radius-bottomright:5px;
-
-         -moz-border-radius-topleft:0px;
-         -moz-border-radius-topright:0px;
-         -moz-border-radius-bottomleft:5px;
-         -moz-border-radius-bottomright:5px;
 }
 
 /*++++++ 468x60 px Ad in the Header ++++++ */
@@ -395,58 +253,24 @@ overflow:hidden;
 
 .date {
          color:#fff;
-         background:#000;
+         background:#333731;
          width:35px;
          height:60px;
          text-align:center;
          font-size:0.7em;
          padding:3px 0 0 0;
 
-         opacity: 0.5;filter:alpha(opacity=50);zoom:1;
-
-         -webkit-border-top-left-radius:5px;
-         -webkit-border-top-right-radius:0px;
-         -webkit-border-bottom-left-radius:5px;
-         -webkit-border-bottom-right-radius:0px;
-
-         -khtml-border-radius-topleft:5px;
-         -khtml-border-radius-topright:0px;
-         -khtml-border-radius-bottomleft:5px;
-         -khtml-border-radius-bottomright:0px;
-
-         -moz-border-radius-topleft:5px;
-         -moz-border-radius-topright:0px;
-         -moz-border-radius-bottomleft:5px;
-         -moz-border-radius-bottomright:0px;
-
 }
 
 .commy {
          color:#fff;
-         background:#000;
+         background:#ff0000;
          width:35px;
          height:30px;
          text-align:center;
          font-size:1.1em;
          padding:7px 0 0 0;
          margin-top:10px;
-
-         opacity: 0.2;filter:alpha(opacity=20);zoom:1;
-
-         -webkit-border-top-left-radius:5px;
-         -webkit-border-top-right-radius:0px;
-         -webkit-border-bottom-left-radius:5px;
-         -webkit-border-bottom-right-radius:0px;
-
-         -khtml-border-radius-topleft:5px;
-         -khtml-border-radius-topright:0px;
-         -khtml-border-radius-bottomleft:5px;
-         -khtml-border-radius-bottomright:0px;
-
-         -moz-border-radius-topleft:5px;
-         -moz-border-radius-topright:0px;
-         -moz-border-radius-bottomleft:5px;
-         -moz-border-radius-bottomright:0px;
 
 }
 
@@ -455,7 +279,6 @@ overflow:hidden;
 .storywrap {
         padding:10px 20px;
         font-size:13px;
-        text-align:justify;
         float:left;
         width:505px;
         margin-bottom:15px;
@@ -463,21 +286,6 @@ overflow:hidden;
         overflow:hidden;
 
         opacity: 0.95;filter:alpha(opacity=95);zoom:1;
-
-         -webkit-border-top-left-radius:0px;
-         -webkit-border-top-right-radius:10px;
-         -webkit-border-bottom-left-radius:10px;
-         -webkit-border-bottom-right-radius:10px;
-
-         -khtml-border-radius-topleft:0px;
-         -khtml-border-radius-topright:10px;
-         -khtml-border-radius-bottomleft:10px;
-         -khtml-border-radius-bottomright:10px;
-
-         -moz-border-radius-topleft:0px;
-         -moz-border-radius-topright:10px;
-         -moz-border-radius-bottomleft:10px;
-         -moz-border-radius-bottomright:10px;
 
 }
 
@@ -488,6 +296,7 @@ overflow:hidden;
  width:180px;
         float:left;
         color:#000;
+        font-size: 9px;
         padding-bottom:50px;
         padding-top:10px;
         margin-top:0px;
@@ -495,21 +304,6 @@ overflow:hidden;
         background:#fff;
         overflow:hidden;
         opacity: 0.9;filter:alpha(opacity=90);zoom:1;
-
-         -webkit-border-top-left-radius:10px;
-         -webkit-border-top-right-radius:10px;
-         -webkit-border-bottom-left-radius:10px;
-         -webkit-border-bottom-right-radius:10px;
-
-         -khtml-border-radius-topleft:10px;
-         -khtml-border-radius-topright:10px;
-         -khtml-border-radius-bottomleft:10px;
-         -khtml-border-radius-bottomright:10px;
-
-         -moz-border-radius-topleft:10px;
-         -moz-border-radius-topright:10px;
-         -moz-border-radius-bottomleft:10px;
-         -moz-border-radius-bottomright:10px;
 
 }
 
@@ -555,6 +349,11 @@ overflow:hidden;
         font-size:11px;
 }
 
+#sidebarleft div p {
+        font-size: 12px;
+        line-height: 18px;
+}
+
 #sidebar {
         width:180px;
         min-height:1200px;
@@ -568,20 +367,6 @@ overflow:hidden;
 
         opacity: 0.8;filter:alpha(opacity=80);zoom:1;
 
-         -webkit-border-top-left-radius:10px;
-         -webkit-border-top-right-radius:10px;
-         -webkit-border-bottom-left-radius:10px;
-         -webkit-border-bottom-right-radius:10px;
-
-         -khtml-border-radius-topleft:10px;
-         -khtml-border-radius-topright:10px;
-         -khtml-border-radius-bottomleft:10px;
-         -khtml-border-radius-bottomright:10px;
-
-         -moz-border-radius-topleft:10px;
-         -moz-border-radius-topright:10px;
-         -moz-border-radius-bottomleft:10px;
-         -moz-border-radius-bottomright:10px;
 }
 
 
@@ -682,6 +467,7 @@ overflow:hidden;
        clear:both;
        padding-bottom:10px;
        overflow:visible;
+       padding-left:1px;
 
 }
 
@@ -750,20 +536,7 @@ ul.post-meta span.post-meta-key {
 
         opacity: 0.6;filter:alpha(opacity=60);zoom:1;
 
-         -webkit-border-top-left-radius:10px;
-         -webkit-border-top-right-radius:10px;
-         -webkit-border-bottom-left-radius:0px;
-         -webkit-border-bottom-right-radius:0px;
 
-         -khtml-border-radius-topleft:10px;
-         -khtml-border-radius-topright:10px;
-         -khtml-border-radius-bottomleft:0px;
-         -khtml-border-radius-bottomright:0px;
-
-         -moz-border-radius-topleft:10px;
-         -moz-border-radius-topright:10px;
-         -moz-border-radius-bottomleft:0px;
-         -moz-border-radius-bottomright:0px;
 
 }
 

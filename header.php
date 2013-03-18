@@ -18,7 +18,8 @@
 		<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>	
         <?php wp_head(); ?>
 
-
+<script src="http://twitterjs.googlecode.com/svn/trunk/src/twitter.min.js" type="text/javascript">
+</script>
 
 </head>
 
@@ -26,6 +27,7 @@
 
 <div id="rap">
 
+<div id="headernew">
 
 
 <?php if (is_search() || is_404()) { ?>
@@ -49,66 +51,18 @@
 		</ul>
 </div>				
 <?php } ?>
-				<?php
-        if ($children) { ?>
-<div id="headsubmenu">
-				<ul>
-                <?php echo $children; ?>
-				</ul>
-</div>
-                <?php } ?>
 
+<a href="<?php bloginfo('url'); ?>/"><img src="http://2012.stateofthemap.org/wp-content/uploads/2012/03/12logo.png" style="position:absolute; left: 12px; top: 15px; z-index:100;" /></a>
 
+<a href="<?php bloginfo('url'); ?>/"><h1><?php bloginfo('name'); ?></h1></a>
 
-
-
-<div id="header">
-
-<div id="headerleft">
-<h1><a href="<?php bloginfo('url'); ?>/"><?php bloginfo('name'); ?></a></h1>
 <h2><?php bloginfo('description'); ?></h2>
-</div><!-- end headerleft -->
 
-<div id="headerright">
-<a href="<?php bloginfo('rss_url'); ?>" title="GET MY FEED"></a>
-</div><!-- end headerright -->
-
-
-
-<!-- H E A D E R   A D   S E C T I O N -->
-<div id="headad">
-
-<!-- ERASE THE FOLLOWING LINE AND INSERT YOUR HEAD AD CODE FROM HERE -->
-
-<img src="<?php bloginfo('url'); ?>/wp-content/themes/aerodrome/images/headad.png" alt="Headad" />
-
-<!-- TO HERE -->
+<div style="position:absolute; left: 694px; top: 76px; color: #fff; width: 400px; font-size:12px; font-weight:bold; line-height:24px;" class="osmlinks">
+OpenStreetMap links:<br />
+<a href="http://www.openstreetmap.org/?mlat=35.66109&mlon=139.67760&zoom=18&layers=M" style="margin-right:12px; color: #fff;">The Map</a> <a href="http://wiki.openstreetmap.org/wiki/State_Of_The_Map_2012" style="margin-right:12px; color: #fff;">The Wiki</a> <a href="http://www.facebook.com/events/186414164808523/"><img src="http://2011.stateofthemap.org/wp-content/uploads/2011/05/2011_facebook.png" width="16" height="16" alt="Facebook" /></a> <a href="http://twitter.com/sotm"><img src="http://2011.stateofthemap.org/wp-content/uploads/2011/05/2011_twitter.png" width="16" height="16" alt="Twitter" /></a> <a href="http://2012.stateofthemap.org/rss"><img src="http://2011.stateofthemap.org/wp-content/uploads/2011/05/2011_rss.png" width="16" height="16" alt="RSS Feed" /></a>
 </div>
 
 </div><!-- end header -->
-
-
-<div id="headmenu2">
-        <ul>
-
-<!-- ******************** C U S T O M   L I N K   S E C T I O N   H E A D E R   B O T T O M *************** -->
-<!-- INSERT YOUR CUSTOM LINKS AND LINK DESCRIPTIONS LIKE <li><a href="http://thebuckmaker.com" title="The Buckmaker is great">TheBuckmaker</a></li> -->
-
-
-
-<li class="headlip">Custom Links:</li>
-
-<li><a href="http://" title="">Link1</a></li>
-
-<li><a href="http://" title="">Link2</a></li>
-
-<li><a href="http://" title="">Link3</a></li>
-
-<li><a href="http://" title="">Link4</a></li>
-
-	</ul>
-
-
-</div><!-- end headmenu2 -->
 
 <div id="content">
