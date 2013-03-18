@@ -48,7 +48,7 @@ blockquote {
 /*+++++ replace "(images/default.jpg)" with another image from the /images directory of the theme ++++*/
 
 body {
-        background: url(images/default.jpg) no-repeat 0 0 #fff;
+        background: url(/wp-content/uploads/2010/01/backgroundgirona.jpg) no-repeat 0 0 #fff;
         background-attachment:fixed;
         background-position: center center;
         color: #000;
@@ -113,13 +113,15 @@ p, li {
 /* ++++++++++++++++++ The Header Section ++++++++++++++++++ */
 
 #header {
-        width:970px;
+        width:969px;
+        height: 87px;
         font-family: Verdana, Arial, sans-serif;
         overflow:hidden;
         margin:0;
         padding: 5px 0 10px 0;
         background:#000;
-
+        background:url('http://2009.stateofthemap.org/wp-content/uploads/2009/05/sotm_top_050709.jpg');
+        opacity:0.8;
 
 
          -webkit-border-top-left-radius:0px;
@@ -169,7 +171,7 @@ p, li {
 #headerleft {
             float:left;
             width:405px;
-
+			margin-left:200px;
 }
 
 
@@ -488,6 +490,7 @@ overflow:hidden;
  width:180px;
         float:left;
         color:#000;
+        font-size: 8px;
         padding-bottom:50px;
         padding-top:10px;
         margin-top:0px;
@@ -553,6 +556,11 @@ overflow:hidden;
         margin:3px 0 0 0;
         list-style-type: none;
         font-size:11px;
+}
+
+#sidebarleft div p {
+        font-size: 11px;
+        line-height: 18px;
 }
 
 #sidebar {
@@ -682,6 +690,7 @@ overflow:hidden;
        clear:both;
        padding-bottom:10px;
        overflow:visible;
+       padding-left:1px;
 
 }
 
