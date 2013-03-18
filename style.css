@@ -82,7 +82,7 @@ h3 {
 
 
 p, li {
-        font: 13px 'Arial', Verdana, sans-serif;
+        font-family: 'Arial', Verdana, sans-serif;
         line-height:17px;
 }
 
@@ -113,12 +113,15 @@ p, li {
 /* ++++++++++++++++++ The Header Section ++++++++++++++++++ */
 
 #header {
-        width:970px;
+        width:969px;
+        height: 87px;
         font-family: Verdana, Arial, sans-serif;
         overflow:hidden;
         margin:0;
         padding: 5px 0 10px 0;
-        background:#000;
+        /*background:url(images/banner.png);*/
+        background:url('http://2009.stateofthemap.org/wp-content/uploads/2009/05/sotm_top_050709.jpg');
+        opacity:0.8;
 
 
 
@@ -147,7 +150,8 @@ p, li {
         text-decoration: none;
 }
 
-#header h1 {font-family:verdana,arial,sans-serif;
+#header h1 {
+			font-family:verdana,arial,sans-serif;
             font-size:29px;
             margin: 15px 0 0 15px;
             padding:0;
@@ -158,7 +162,8 @@ p, li {
 
 #header h1 a:hover {}
 
-#header h2 {margin-top:0px;
+#header h2 {
+			margin-top:0px;
             font-family: verdana, arial, sans-serif;
             font-size:13px;
             color:#fff;
@@ -169,9 +174,12 @@ p, li {
 #headerleft {
             float:left;
             width:405px;
-
+			margin-left:200px;
 }
 
+#headerright {
+	display: none;
+}
 
 #headerright a {
         background:url(images/rss2.jpg) no-repeat -1px -64px #000;
@@ -318,11 +326,14 @@ overflow:hidden;
 
 
 #headmenu2 a {
-         color:#000;
+         color:#999;
          background:#fff;
          padding:4px 10px 4px 10px;
          margin:0 3px 0 0;
          line-height:21px;
+         
+         font-weight: normal;
+         font-size: 12px;
 
          -webkit-border-top-left-radius:0px;
          -webkit-border-top-right-radius:0px;
@@ -354,7 +365,8 @@ overflow:hidden;
          padding:0px 10px 0px 10px;
          margin:0 3px 0 0;
          line-height:21px;
-         font-weight:bold;
+         font-weight:normal;
+         font-size:12px;
 
          -webkit-border-top-left-radius:0px;
          -webkit-border-top-right-radius:0px;
@@ -422,6 +434,7 @@ overflow:hidden;
 }
 
 .commy {
+	display: none;
          color:#fff;
          background:#000;
          width:35px;
@@ -696,6 +709,7 @@ overflow:hidden;
 .storycontent p a {text-decoration:underline;}
 
 .meta {
+		display: none;
         font-size: 10px;
         font-family: Arial, Verdana, sans-serif;
         color: #808080;
@@ -902,7 +916,7 @@ ul.post-meta span.post-meta-key {
 .comment-meta  a{font-size:8px; float:right; margin-top:-18px; color:#757575;}
 .fn {font-size:15px; font-weight:bold;}
 .says {display:none;}
-#comments {font-size:16px;}
+#comments {display: none;font-size:16px;}
 #respond h3 {font-size:16px;}
 
 
@@ -1006,4 +1020,8 @@ div.aligncenter {
         padding: 0 4px 5px;
 
         margin: 0;
+}
+
+.commentwrapper {
+	display: block;
 }

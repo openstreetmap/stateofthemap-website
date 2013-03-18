@@ -1,3 +1,4 @@
+<div class='commentwrapper'>
 <?php if (!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
 		die ('Please do not load this page directly. Thanks!');
 
@@ -94,3 +95,4 @@
 <?php endif; // If registration required and not logged in ?>
 
 <?php endif; // if you delete this the sky will fall on your head ?>
+</div> <!--commentwrapper-->

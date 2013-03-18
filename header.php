@@ -65,8 +65,10 @@
 <div id="header">
 
 <div id="headerleft">
+
 <h1><a href="<?php bloginfo('url'); ?>/"><?php bloginfo('name'); ?></a></h1>
 <h2><?php bloginfo('description'); ?></h2>
+
 </div><!-- end headerleft -->
 
 <div id="headerright">
@@ -80,7 +82,7 @@
 
 <!-- ERASE THE FOLLOWING LINE AND INSERT YOUR HEAD AD CODE FROM HERE -->
 
-<img src="<?php bloginfo('url'); ?>/wp-content/themes/aerodrome/images/headad.png" alt="Headad" />
+<!--<img src="stateofthemap.png">-->
 
 <!-- TO HERE -->
 </div>
@@ -96,16 +98,32 @@
 
 
 
-<li class="headlip">Custom Links:</li>
+<li class="headlip">OpenStreetMap links:</li>
 
-<li><a href="http://" title="">Link1</a></li>
+<li><a href="http://www.openstreetmap.org" title="">The Map</a></li>
 
-<li><a href="http://" title="">Link2</a></li>
+<li><a href="http://wiki.openstreetmap.org" title="">The Wiki</a></li>
 
-<li><a href="http://" title="">Link3</a></li>
+<!-- li><a href="http://www.vimeo.com/2598878"  title="">Video: OSM edits in 2008</a></li -->
+<li><a href="http://www.vimeo.com/sotm09"  title="">SOTM09 videos</a></li>
 
-<li><a href="http://" title="">Link4</a></li>
+<li><a href="http://www.ustream.tv/stateofthemap"  title="">SOTM09 streams</a></li>
 
+<!-- li><a href="http://blog.signal2noise.ie/~eason/sotm08/" title="">SOTM08 video</a></li -->
+
+<li><a href="http://www.flickr.com/photos/tags/sotm09/" title="">SOTM09 photos</a></li>
+
+<li><a href="http://search.twitter.com/search?q=%23sotm09" title="">SOTM09 twitters</a></li>
+
+<li>
+<a href="http://www.facebook.com/event.php?eid=42080483937"><img title="facebook" src="http://2009.stateofthemap.org/wp-content/uploads/2009/01/facebook.png" alt="facebook" width="16" height="16" /></a></li>
+<li>
+<a href="http://twitter.com/sotm"><img title="twitter1" src="http://2009.stateofthemap.org/wp-content/uploads/2009/01/twitter1.png" alt="twitter1" width="16" height="16" /></a> </li>
+<li>
+<a href="http://flickr.com/groups/sotm09/"><img title="flickr" src="http://2009.stateofthemap.org/wp-content/uploads/2009/01/flickr.png" alt="flickr" width="16" height="16" /></a></li>
+<li>
+<a href="http://2009.stateofthemap.org/feed/"><img title="feed-icon-14x14" src="http://2009.stateofthemap.org/wp-content/uploads/2009/02/feed-icon-14x14.png" alt="feed-icon-14x14" width="14" height="14" /></a>
+</li>
 	</ul>
 
 
