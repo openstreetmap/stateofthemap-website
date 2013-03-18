@@ -1,0 +1,44 @@
+WORDPRESS THEME 
+AERODROME	
+
+ 
+    CHANGELOG
+    
+	V 1.0.3
+	
+	Added customizeable Link section below Header
+	Added beautiful subpages menu on top
+	Added Christmas Background image CC License: http://flickr.com/photos/krisdecurtis/337787518/
+    An admin menu that allows the background image to be selected
+	easily without code modifications has been added. More background image
+    options were also added for a total of 12. Thanks to Aaron Edwards of
+    http://missionsplace.com for this.
+	- full WordPress 2.7 ready, esp. concerning comments
+	- overall text font size reduced to 13px
+	- revised headings, table style, fieldset
+    
+	Image Sources (all Creative Commons License):
+	Vector Landscape: http://www.flickr.com/photos/24471966@N04/2851251413/
+	Africa: http://www.flickr.com/photos/mdorn/2168347/ 
+	Temple: http://www.flickr.com/photos/stuckincustoms/527078736/
+	Great Wall: http://www.flickr.com/photos/smokingpermitted/1952627233/
+	Foggy Mountains: http://www.flickr.com/photos/davelau/1061671042/
+	Antique Map: http://www.flickr.com/photos/normanbleventhalmapcenter/2674855383/
+	Parchment Map: http://www.sxc.hu/photo/938403
+	Christmas: http://flickr.com/photos/krisdecurtis/337787518/
+	all other images taken from http://sxc.hu -- standard restrictions  
+	
+	
+	V 1.0.2
+
+	custom search result and 404 error page
+	better handling of head menu - parent and child pages
+        again improved the comment list
+        magnifying glass (search) now shows up on every page and post
+        more beautiful nav links (previous-next post)	
+
+
+	V 1.0.1
+
+	
+
