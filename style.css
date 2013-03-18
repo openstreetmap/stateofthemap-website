@@ -5,7 +5,7 @@ Description: Beautiful light and professional designed, ad ready WordPress theme
 Author: Joe Fischler
 Author URI: http://thebuckmaker.com
 Tags: blue, green, light, three-columns, fixed-width, theme-options, threaded-comments
-Version: 1.0.3
+Version: 1.0.4
 */
 
 
@@ -48,7 +48,7 @@ blockquote {
 /*+++++ replace "(images/default.jpg)" with another image from the /images directory of the theme ++++*/
 
 body {
-        background: url(images/aerodrome.jpg) no-repeat 0 0 #fff;
+        background: url(images/default.jpg) no-repeat 0 0 #fff;
         background-attachment:fixed;
         background-position: center center;
         color: #000;
