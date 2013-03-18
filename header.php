@@ -25,7 +25,7 @@
 		<!--header -->
 		<div id="header">			
 				
-			<h1 id="logo-text"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>		
+			<h1 id="logo-text"><a href="/"><?php bloginfo('name'); ?></a></h1>		
 			<h2 id="slogan"><?php bloginfo('description'); ?></h2>
 			<p>	
 <!--			<?php include (TEMPLATEPATH . "/searchform.php"); ?> -->			
@@ -35,7 +35,7 @@
 		<!-- menu -->	
 		<div  id="menu">
 			<ul>
-				<li <?php if (is_home()) echo " id=\"current\""; ?>><a href="<?php echo get_settings('home'); ?>">Home</a></li>
+				<li <?php if (is_home()) echo " id=\"current\""; ?>><a href="<?php echo get_settings('home'); ?>">Latest News</a></li>
 				<?php
 		$pages = BX_get_pages();
 		if ($pages) {
