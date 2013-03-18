@@ -211,6 +211,7 @@ form.search input.button {
 	background: url(images/menu.jpg) repeat-y center top;	
 	font: bold 12px/26px Verdana, Arial, Tahoma, Sans-serif;
 	height: 26px;
+  padding-left: 5px;
 }
 #menu ul {
 	float: left;
@@ -312,6 +313,11 @@ form.search input.button {
 	text-decoration: none;	
 	background-image: none;	
 }
+
+#program{
+	position: absolute;
+}
+
 
 /* Footer */	
 #footer {
