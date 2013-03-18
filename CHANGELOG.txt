@@ -4,7 +4,10 @@ AERODROME
  
     CHANGELOG
     
-	V 1.0.3
+	V 1.0.5
+	Bugfix comment miscount WP 2.9
+	
+	V 1.0.3-1.0.4
 	
 	Added customizeable Link section below Header
 	Added beautiful subpages menu on top

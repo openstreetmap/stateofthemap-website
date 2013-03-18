@@ -34,9 +34,6 @@ Written by <?php the_author() ?><?php _e(" in:"); ?> <?php the_category(',') ?> 
 
         </div><!-- end meta -->
 
-
-<?php comments_template(); ?>
-
      </div><!-- end storywrap -->
 
 </div><!-- end post -->

@@ -12,7 +12,7 @@
 
          <!-- if you don't want the comment count left of the post, erase from here ... -->
          <div class="commy">
-         <?php comments_popup_link(__('0'), __('1'), __('%'), '', __('--')); ?>    
+<?php comments_popup_link( '0', '1', '%', 'comments-link', '-'); ?>   
          </div><!-- end commy -->
          <!-- to here -->
 

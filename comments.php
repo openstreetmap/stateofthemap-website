@@ -8,11 +8,13 @@
 	}
 ?>
 
+        <!--
 	<h2 id="comments"><?php comments_number(__('No Comments'), __('1 Comment'), __('% Comments')); ?>
 	<?php if ( comments_open() ) : ?>
 	         <a href="#postcomment" title="<?php _e("Leave a comment"); ?>">&raquo;</a>
 	<?php endif; ?>
 	</h2>
+        -->
 
 
 <?php if ( have_comments() ) : ?>
@@ -34,17 +36,18 @@
 		<!-- If comments are open, but there are no comments. -->
 
 	 <?php else : // comments are closed ?>
-		<!-- If comments are closed. -->
-		<p class="nocomments">Comments are closed.</p>
+		<!-- If comments are closed. 
+		<p class="nocomments">Comments are closed.</p>-->
 
 	<?php endif; ?>
 <?php endif; ?>
 
+        <!--
 	<p style="font-size:12px;"><?php post_comments_feed_link(__('RSS feed for comments on this post.')); ?>
 	<?php if ( pings_open() ) : ?>
 	         <a href="<?php trackback_url() ?>" rel="trackback"><?php _e('TrackBack URL'); ?></a>
 	<?php endif; ?>
-	</p>
+	</p>-->
 <hr>
 <?php if ('open' == $post->comment_status) : ?>
 

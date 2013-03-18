@@ -2,6 +2,14 @@
 
 <div id="sidebar">
 
+<ul>
+<?php         /* Widgetized sidebar, if you have the plugin installed. */
+                if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Left Sidebar") ) : ?>
+
+<?php endif; ?>
+
+</ul>
+<br /><br /><br />
 <div id="search">
 <ul>
  <li style="margin-top:0px;">
