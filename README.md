@@ -14,3 +14,9 @@ web sites. There are a number of branches:
 * **theme-2009** theme for [2009.stateofthemap.org](https://2009.stateofthemap.org/)
 * **theme-2008** theme for [2008.stateofthemap.org](https://2008.stateofthemap.org/)
 * **theme-2007** theme for [2007.stateofthemap.org](https://2007.stateofthemap.org/)
+
+To clone this repository, use
+```sh
+git clone --single-branch --branch <branch> https://github.com/openstreetmap/stateofthemap.git
+```
+Replace `<branch>` with the name of the branch you want to clone.
