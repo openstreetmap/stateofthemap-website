@@ -1,0 +1,1276 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 5:09:32 Apr 7, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:26:40 May 3, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*Typo */
+
+#tinymce {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333333;
+	background-color: #ffffff;
+}
+
+#tinymce a {color: #0088cc; text-decoration: none;}
+#tinymce a:hover { color: #005580; text-decoration: underline;}
+
+/*images*/
+#tinymce .img-rounded {-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;}
+#tinymce .img-polaroid {padding: 4px;background-color: #fff;border: 1px solid #ccc;border: 1px solid rgba(0, 0, 0, 0.2);-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);}
+#tinymce .img-circle {-webkit-border-radius: 500px;-moz-border-radius: 500px;border-radius: 500px;}
+
+/*tables*/
+
+
+#tinymce p { margin: 0 0 10px;}
+#tinymce .lead {margin-bottom: 20px;font-size: 21px;font-weight: 200;line-height: 30px;}
+#tinymce small {font-size: 85%;}
+#tinymce strong {font-weight: bold;}
+#tinymce em {font-style: italic;}
+#tinymce cite {font-style: normal;}
+#tinymce .muted {color: #999999;}
+#tinymce a.muted:hover {color: #808080;}
+#tinymce .text-warning {color: #c09853;}
+#tinymce a.text-warning:hover {color: #a47e3c;}
+#tinymce .text-error {color: #b94a48;}
+#tinymce a.text-error:hover {color: #953b39;}
+#tinymce .text-info {color: #3a87ad;}
+#tinymce a.text-info:hover {color: #2d6987;}
+#tinymce .text-success {color: #468847;}
+#tinymce a.text-success:hover {color: #356635;}
+
+
+
+#tinymce h1,h2,h3 {line-height: 40px;}
+#tinymce h1 {font-size: 38.5px;}
+#tinymce h2 {font-size: 31.5px;}
+#tinymce h3 {font-size: 24.5px;}
+#tinymce h4 {font-size: 17.5px;}
+#tinymce h5 {font-size: 14px;}
+#tinymce h6 {font-size: 11.9px;}
+
+#tinymce h1 small {font-size: 24.5px;}
+#tinymce h2 small {font-size: 17.5px;}
+#tinymce h3 small {font-size: 14px;}
+#tinymce h4 small {font-size: 14px;}
+
+#tinymce h1, #tinymce h2, #tinymce h3, #tinymce h4, #tinymce h5, #tinymce h6 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 20px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+
+
+#tinymce h1 small, #tinymce h2 small, #tinymce h3 small, #tinymce h4 small, #tinymce h5 small, #tinymce h6 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999999;
+}
+
+
+#tinymce .page-header {padding-bottom: 9px;margin: 20px 0 30px;border-bottom: 1px solid #eeeeee;}
+
+#tinymce ul,#tinymce ol {padding: 0;margin: 0 0 10px 25px;}
+#tinymce ul ul, #tinymce ul ol, #tinymce ol ol, #tinymce ol ul {margin-bottom: 0;}
+#tinymce li {line-height: 20px;}
+#tinymce ul.unstyled, #tinymce ol.unstyled {margin-left: 0;list-style: none;}
+#tinymce ul.inline, #tinymce ol.inline {margin-left: 0;list-style: none;}
+#tinymce ul.inline  > li,ol.inline  > li {display: inline-block;padding-left: 5px;padding-right: 5px;}
+#tinymce dl {margin-bottom: 20px;}
+#tinymce dt, #tinymce dd {line-height: 20px;}
+#tinymce dt {font-weight: bold;}
+#tinymce dd {margin-left: 10px;}
+#tinymce .dl-horizontal {*zoom: 1;}
+#tinymce .dl-horizontal:before,.dl-horizontal:after {display: table;content: "";line-height: 0;}
+#tinymce .dl-horizontal:after {clear: both;}
+#tinymce .dl-horizontal dt {float: left;width: 160px;clear: left;text-align: right;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+#tinymce .dl-horizontal dd {margin-left: 180px;}
+
+
+#tinymce hr {margin: 20px 0;border: 0;border-top: 1px solid #eeeeee; border-bottom: 1px solid #ffffff;}
+#tinymce abbr[title], #tinymce abbr[data-original-title] {cursor: help;border-bottom: 1px dotted #999999;}
+#tinymce abbr.initialism {font-size: 90%;text-transform: uppercase;}
+#tinymce blockquote {padding: 0 0 0 15px;margin: 0 0 20px;border-left: 5px solid #eeeeee;}
+#tinymce blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 25px;}
+#tinymce blockquote small {display: block;line-height: 20px;color: #999999;}
+#tinymce blockquote small:before {content: '\2014 \00A0';}
+#tinymce blockquote.pull-right {float: right;padding-right: 15px;padding-left: 0;border-right: 5px solid #eeeeee;border-left: 0;}
+#tinymce blockquote.pull-right p,blockquote.pull-right small {text-align: right;}
+#tinymce blockquote.pull-right small:before {content: '';}
+#tinymce blockquote.pull-right small:after {content: '\00A0 \2014';}
+#tinymce q:before, #tinymce q:after,blockquote:before,blockquote:after {content: "";}
+#tinymce address {display: block;margin-bottom: 20px;font-style: normal;line-height: 20px;}
+#tinymce code, #tinymce pre {padding: 0 3px 2px;font-family: Monaco, Menlo, Consolas, "Courier New", monospace;font-size: 12px;color: #333333;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+#tinymce code {
+  padding: 2px 4px;
+  color: #d14;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+  white-space: nowrap;
+}
+#tinymce pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 20px;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#tinymce pre.prettyprint {
+  margin-bottom: 20px;
+}
+#tinymce pre code {
+  padding: 0;
+  color: inherit;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border: 0;
+}
+#tinymce .pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
+}
+#tinymce .label,
+#tinymce .badge {
+  display: inline-block;
+  padding: 2px 4px;
+  font-size: 11.844px;
+  font-weight: bold;
+  line-height: 14px;
+  color: #ffffff;
+  vertical-align: baseline;
+  white-space: nowrap;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #999999;
+}
+#tinymce .label {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+#tinymce .badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+#tinymce .label:empty,
+#tinymce .badge:empty {
+  display: none;
+}
+#tinymce a.label:hover,
+#tinymce a.badge:hover {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+#tinymce .label-important,
+#tinymce .badge-important {
+  background-color: #b94a48;
+}
+#tinymce .label-important[href],.badge-important[href] {background-color: #953b39;}
+#tinymce .label-warning,
+#tinymce .badge-warning {
+  background-color: #f89406;
+}
+#tinymce .label-warning[href],
+#tinymce .badge-warning[href] {
+  background-color: #c67605;
+}
+#tinymce .label-success,
+#tinymce .badge-success {
+  background-color: #468847;
+}
+#tinymce .label-success[href],
+#tinymce .badge-success[href] {
+  background-color: #356635;
+}
+#tinymce .label-info,
+#tinymce .badge-info {
+  background-color: #3a87ad;
+}
+#tinymce .label-info[href],
+#tinymce .badge-info[href] {
+  background-color: #2d6987;
+}
+#tinymce .label-inverse,
+#tinymce .badge-inverse {
+  background-color: #333333;
+}
+#tinymce .label-inverse[href],
+#tinymce .badge-inverse[href] {
+  background-color: #1a1a1a;
+}
+#tinymce .btn .label,
+#tinymce .btn .badge {
+  position: relative;
+  top: -1px;
+}
+#tinymce .btn-mini .label,
+#tinymce .btn-mini .badge {
+  top: 0;
+}
+
+
+#tinymce table {
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#tinymce .table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#tinymce .table th,
+#tinymce .table td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+#tinymce .table th {
+  font-weight: bold;
+}
+#tinymce .table thead th {
+  vertical-align: bottom;
+}
+#tinymce .table caption + thead tr:first-child th,
+#tinymce .table caption + thead tr:first-child td,
+#tinymce .table colgroup + thead tr:first-child th,
+#tinymce .table colgroup + thead tr:first-child td,
+#tinymce .table thead:first-child tr:first-child th,
+#tinymce .table thead:first-child tr:first-child td {
+  border-top: 0;
+}
+#tinymce .table tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+#tinymce .table .table {
+  background-color: #ffffff;
+}
+#tinymce .table-condensed th,
+#tinymce .table-condensed td {
+  padding: 4px 5px;
+}
+#tinymce .table-bordered {
+  border: 1px solid #dddddd;
+  border-collapse: separate;
+  *border-collapse: collapse;
+  border-left: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#tinymce .table-bordered th,
+#tinymce .table-bordered td {
+  border-left: 1px solid #dddddd;
+}
+#tinymce .table-bordered caption + thead tr:first-child th,
+#tinymce .table-bordered caption + tbody tr:first-child th,
+#tinymce .table-bordered caption + tbody tr:first-child td,
+#tinymce .table-bordered colgroup + thead tr:first-child th,
+#tinymce .table-bordered colgroup + tbody tr:first-child th,
+#tinymce .table-bordered colgroup + tbody tr:first-child td,
+#tinymce .table-bordered thead:first-child tr:first-child th,
+#tinymce .table-bordered tbody:first-child tr:first-child th,
+#tinymce .table-bordered tbody:first-child tr:first-child td {
+  border-top: 0;
+}
+#tinymce .table-bordered thead:first-child tr:first-child > th:first-child,
+#tinymce .table-bordered tbody:first-child tr:first-child > td:first-child {
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  border-top-left-radius: 4px;
+}
+#tinymce .table-bordered thead:first-child tr:first-child > th:last-child,
+#tinymce .table-bordered tbody:first-child tr:first-child > td:last-child {
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-right-radius: 4px;
+}
+#tinymce .table-bordered thead:last-child tr:last-child > th:first-child,
+#tinymce .table-bordered tbody:last-child tr:last-child > td:first-child,
+#tinymce .table-bordered tfoot:last-child tr:last-child > td:first-child {
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  border-bottom-left-radius: 4px;
+}
+#tinymce .table-bordered thead:last-child tr:last-child > th:last-child,
+#tinymce .table-bordered tbody:last-child tr:last-child > td:last-child,
+#tinymce .table-bordered tfoot:last-child tr:last-child > td:last-child {
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  border-bottom-right-radius: 4px;
+}
+#tinymce .table-bordered tfoot + tbody:last-child tr:last-child td:first-child {
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-bottom-left-radius: 0;
+}
+#tinymce .table-bordered tfoot + tbody:last-child tr:last-child td:last-child {
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  border-bottom-right-radius: 0;
+}
+#tinymce .table-bordered caption + thead tr:first-child th:first-child,
+#tinymce .table-bordered caption + tbody tr:first-child td:first-child,
+#tinymce .table-bordered colgroup + thead tr:first-child th:first-child,
+#tinymce .table-bordered colgroup + tbody tr:first-child td:first-child {
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  border-top-left-radius: 4px;
+}
+#tinymce .table-bordered caption + thead tr:first-child th:last-child,
+#tinymce .table-bordered caption + tbody tr:first-child td:last-child,
+#tinymce .table-bordered colgroup + thead tr:first-child th:last-child,
+#tinymce .table-bordered colgroup + tbody tr:first-child td:last-child {
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-right-radius: 4px;
+}
+#tinymce .table-striped tbody > tr:nth-child(odd) > td,
+#tinymce .table-striped tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+#tinymce .table-hover tbody tr:hover td,
+#tinymce .table-hover tbody tr:hover th {
+  background-color: #f5f5f5;
+}
+
+
+#tinymce .table tbody tr.success td {
+  background-color: #dff0d8;
+}
+#tinymce .table tbody tr.error td {
+  background-color: #f2dede;
+}
+#tinymce .table tbody tr.warning td {
+  background-color: #fcf8e3;
+}
+#tinymce .table tbody tr.info td {
+  background-color: #d9edf7;
+}
+#tinymce .table-hover tbody tr.success:hover td {
+  background-color: #d0e9c6;
+}
+#tinymce .table-hover tbody tr.error:hover td {
+  background-color: #ebcccc;
+}
+#tinymce .table-hover tbody tr.warning:hover td {
+  background-color: #faf2cc;
+}
+#tinymce .table-hover tbody tr.info:hover td {
+  background-color: #c4e3f3;
+}
+
+
+#tinymce legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: 40px;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+#tinymce legend small {
+  font-size: 15px;
+  color: #999999;
+}
+#tinymce label,
+#tinymce input,
+#tinymce button,
+#tinymce select,
+#tinymce textarea {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+}
+#tinymce input,
+#tinymce button,
+#tinymce select,
+#tinymce textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#tinymce label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+#tinymce select,
+#tinymce textarea,
+#tinymce input[type="text"],
+#tinymce input[type="password"],
+#tinymce input[type="datetime"],
+#tinymce input[type="datetime-local"],
+#tinymce input[type="date"],
+#tinymce input[type="month"],
+#tinymce input[type="time"],
+#tinymce input[type="week"],
+#tinymce input[type="number"],
+#tinymce input[type="email"],
+#tinymce input[type="url"],
+#tinymce input[type="search"],
+#tinymce input[type="tel"],
+#tinymce input[type="color"],
+#tinymce .uneditable-input {
+  display: inline-block;
+  height: 20px;
+  padding: 4px 6px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
+
+#tinymce textarea,
+#tinymce input[type="text"],
+#tinymce input[type="password"],
+#tinymce input[type="datetime"],
+#tinymce input[type="datetime-local"],
+#tinymce input[type="date"],
+#tinymce input[type="month"],
+#tinymce input[type="time"],
+#tinymce input[type="week"],
+#tinymce input[type="number"],
+#tinymce input[type="email"],
+#tinymce input[type="url"],
+#tinymce input[type="search"],
+#tinymce input[type="tel"],
+#tinymce input[type="color"],
+#tinymce .uneditable-input {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear .2s, box-shadow linear .2s;
+  -moz-transition: border linear .2s, box-shadow linear .2s;
+  -o-transition: border linear .2s, box-shadow linear .2s;
+  transition: border linear .2s, box-shadow linear .2s;
+}
+#tinymce textarea:focus,
+#tinymce input[type="text"]:focus,
+#tinymce input[type="password"]:focus,
+#tinymce input[type="datetime"]:focus,
+#tinymce input[type="datetime-local"]:focus,
+#tinymce input[type="date"]:focus,
+#tinymce input[type="month"]:focus,
+#tinymce input[type="time"]:focus,
+#tinymce input[type="week"]:focus,
+#tinymce input[type="number"]:focus,
+#tinymce input[type="email"]:focus,
+#tinymce input[type="url"]:focus,
+#tinymce input[type="search"]:focus,
+#tinymce input[type="tel"]:focus,
+#tinymce input[type="color"]:focus,
+#tinymce .uneditable-input:focus {
+  border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+}
+
+#tinymce table td[class*="span"],
+#tinymce table th[class*="span"],
+#tinymce .row-fluid table td[class*="span"],
+#tinymce .row-fluid table th[class*="span"] {
+  display: table-cell;
+  float: none;
+  margin-left: 0;
+}
+#tinymce .table td.span1, #tinymce .table th.span1 {float: none;width: 44px;margin-left: 0;}
+#tinymce .table td.span2, #tinymce .table th.span2 {float: none;width: 124px;margin-left: 0;}
+#tinymce .table td.span3, #tinymce .table th.span3 {float: none;width: 204px;margin-left: 0;}
+#tinymce .table td.span4, #tinymce .table th.span4 {float: none;width: 284px;margin-left: 0;}
+#tinymce .table td.span5, #tinymce .table th.span5 {float: none;width: 364px;margin-left: 0;}
+#tinymce .table td.span6, #tinymce .table th.span6 {float: none;width: 444px;margin-left: 0;}
+#tinymce .table td.span7, #tinymce .table th.span7 {float: none;width: 524px;margin-left: 0;}
+#tinymce .table td.span8, #tinymce .table th.span8 {float: none;width: 604px;margin-left: 0;}
+#tinymce .table td.span9, #tinymce .table th.span9 {float: none;width: 684px;margin-left: 0;}
+#tinymce .table td.span10, #tinymce .table th.span10 {float: none;width: 764px;margin-left: 0;}
+#tinymce .table td.span11, #tinymce .table th.span11 {float: none;width: 844px;margin-left: 0;}
+#tinymce .table td.span12, #tinymce .table th.span12 {float: none;width: 924px;margin-left: 0;}
+#tinymce .table tbody tr.success td {background-color: #dff0d8;}
+#tinymce .table tbody tr.error td {background-color: #f2dede;}
+#tinymce .table tbody tr.warning td {background-color: #fcf8e3;}
+#tinymce .table tbody tr.info td {background-color: #d9edf7;}
+#tinymce .table-hover tbody tr.success:hover td {background-color: #d0e9c6;}
+#tinymce .table-hover tbody tr.error:hover td {background-color: #ebcccc;}
+#tinymce .table-hover tbody tr.warning:hover td {background-color: #faf2cc;}
+#tinymce .table-hover tbody tr.info:hover td {background-color: #c4e3f3;}
+#tinymce form {margin: 0 0 20px;}
+#tinymce fieldset {padding: 0;margin: 0;border: 0;}
+#tinymce legend {
+display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: 40px;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+#tinymce legend small {
+  font-size: 15px;
+  color: #999999;
+}
+
+#tinymce label,
+#tinymce input,
+#tinymce button,
+#tinymce select,
+#tinymce textarea {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+}
+#tinymce input,
+#tinymce button,
+#tinymce select,
+#tinymce textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#tinymce label {
+  display: block;
+  margin-bottom: 5px;
+}
+#tinymce select,
+#tinymce textarea,
+#tinymce input[type="text"],
+#tinymce input[type="password"],
+#tinymce input[type="datetime"],
+#tinymce input[type="datetime-local"],
+#tinymce input[type="date"],
+#tinymce input[type="month"],
+#tinymce input[type="time"],
+#tinymce input[type="week"],
+#tinymce input[type="number"],
+#tinymce input[type="email"],
+#tinymce input[type="url"],
+#tinymce input[type="search"],
+#tinymce input[type="tel"],
+#tinymce input[type="color"],
+#tinymce .uneditable-input {
+  display: inline-block;
+  height: 20px;
+  padding: 4px 6px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+#tinymce input,
+#tinymce textarea,
+#tinymce .uneditable-input {
+  width: 206px;
+}
+#tinymce textarea {
+  height: auto;
+}
+#tinymce textarea,
+#tinymce input[type="text"],
+#tinymce input[type="password"],
+#tinymce input[type="datetime"],
+#tinymce input[type="datetime-local"],
+#tinymce input[type="date"],
+#tinymce input[type="month"],
+#tinymce input[type="time"],
+#tinymce input[type="week"],
+#tinymce input[type="number"],
+#tinymce input[type="email"],
+#tinymce input[type="url"],
+#tinymce input[type="search"],
+#tinymce input[type="tel"],
+#tinymce input[type="color"],
+#tinymce .uneditable-input {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear .2s, box-shadow linear .2s;
+  -moz-transition: border linear .2s, box-shadow linear .2s;
+  -o-transition: border linear .2s, box-shadow linear .2s;
+  transition: border linear .2s, box-shadow linear .2s;
+}
+#tinymce textarea:focus,
+#tinymce input[type="text"]:focus,
+#tinymce input[type="password"]:focus,
+#tinymce input[type="datetime"]:focus,
+#tinymce input[type="datetime-local"]:focus,
+#tinymce input[type="date"]:focus,
+#tinymce input[type="month"]:focus,
+#tinymce input[type="time"]:focus,
+#tinymce input[type="week"]:focus,
+#tinymce input[type="number"]:focus,
+#tinymce input[type="email"]:focus,
+#tinymce input[type="url"]:focus,
+#tinymce input[type="search"]:focus,
+#tinymce input[type="tel"]:focus,
+#tinymce input[type="color"]:focus,
+#tinymce .uneditable-input:focus {
+  border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+}
+#tinymce input[type="radio"],
+#tinymce input[type="checkbox"] {
+  margin: 4px 0 0;
+  *margin-top: 0;
+  margin-top: 1px \9;
+  line-height: normal;
+}
+#tinymce input[type="file"],
+#tinymce input[type="image"],
+#tinymce input[type="submit"],
+#tinymce input[type="reset"],
+#tinymce input[type="button"],
+#tinymce input[type="radio"],
+#tinymce input[type="checkbox"] {
+  width: auto;
+}
+#tinymce select,
+#tinymce input[type="file"] {
+  height: 30px;
+  *margin-top: 4px;
+  line-height: 30px;
+}
+#tinymce select {
+  width: 220px;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+}
+#tinymce select[multiple],
+#tinymce select[size] {
+  height: auto;
+}
+#tinymce select:focus,
+#tinymce input[type="file"]:focus,
+#tinymce input[type="radio"]:focus,
+#tinymce input[type="checkbox"]:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#tinymce .uneditable-input,
+#tinymce .uneditable-textarea {
+  color: #999999;
+  background-color: #fcfcfc;
+  border-color: #cccccc;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
+  cursor: not-allowed;
+}
+
+#tinymce .btn {
+  display: inline-block;
+  *display: inline;
+
+  *zoom: 1;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  color: #333333;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #e6e6e6;
+ 
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  border: 1px solid #bbbbbb;
+  *border: 0;
+  border-bottom-color: #a2a2a2;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  *margin-left: .3em;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+}
+
+#tinymce .btn:hover,
+#tinymce .btn:active,
+#tinymce .btn.active,
+#tinymce .btn.disabled,
+#tinymce .btn[disabled] {
+  color: #333333;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+}
+#tinymce .btn:active,
+#tinymce .btn.active {
+  background-color: #cccccc \9;
+}
+#tinymce .btn:first-child {
+  *margin-left: 0;
+}
+#tinymce .btn:hover {
+  color: #333333;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+}
+#tinymce .btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#tinymce .btn.active,
+#tinymce .btn:active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+}
+#tinymce .btn.disabled,
+#tinymce .btn[disabled] {
+  cursor: default;
+  background-image: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+#tinymce .btn-large {
+  padding: 11px 19px;
+  font-size: 17.5px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+#tinymce .btn-large [class^="icon-"],
+#tinymce .btn-large [class*=" icon-"] {
+  margin-top: 4px;
+}
+
+#tinymce .btn-small {
+  padding: 2px 10px;
+  font-size: 11.9px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+#tinymce .btn-small [class^="icon-"],
+#tinymce .btn-small [class*=" icon-"] {
+  margin-top: 0;
+}
+
+#tinymce .btn-mini [class^="icon-"],
+#tinymce .btn-mini [class*=" icon-"] {
+  margin-top: -1px;
+}
+
+#tinymce .btn-mini {
+  padding: 0 6px;
+  font-size: 10.5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+#tinymce .btn-block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#tinymce .btn-block + .btn-block {
+  margin-top: 5px;
+}
+#tinymce input[type="submit"].btn-block,
+#tinymce input[type="reset"].btn-block,
+#tinymce input[type="button"].btn-block {
+  width: 100%;
+}
+#tinymce .btn-primary.active,
+#tinymce .btn-warning.active,
+#tinymce .btn-danger.active,
+#tinymce .btn-success.active,
+#tinymce .btn-info.active,
+#tinymce .btn-inverse.active {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#tinymce .btn {
+  border-color: #c5c5c5;
+  border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+}
+#tinymce .btn-primary {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #006dcc;
+  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  border-color: #0044cc #0044cc #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #0044cc;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+#tinymce .btn-primary:hover,
+#tinymce .btn-primary:active,
+#tinymce .btn-primary.active,
+#tinymce .btn-primary.disabled,
+#tinymce .btn-primary[disabled] {
+  color: #ffffff;
+  background-color: #0044cc;
+  *background-color: #003bb3;
+}
+#tinymce .btn-primary:active,
+#tinymce .btn-primary.active {
+  background-color: #003399 \9;
+}
+#tinymce .btn-warning {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #faa732;
+  background-image: -moz-linear-gradient(top, #fbb450, #f89406);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));
+  background-image: -webkit-linear-gradient(top, #fbb450, #f89406);
+  background-image: -o-linear-gradient(top, #fbb450, #f89406);
+  background-image: linear-gradient(to bottom, #fbb450, #f89406);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffbb450', endColorstr='#fff89406', GradientType=0);
+  border-color: #f89406 #f89406 #ad6704;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #f89406;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+#tinymce .btn-warning:hover,
+#tinymce .btn-warning:active,
+#tinymce .btn-warning.active,
+#tinymce .btn-warning.disabled,
+#tinymce .btn-warning[disabled] {
+  color: #ffffff;
+  background-color: #f89406;
+  *background-color: #df8505;
+}
+#tinymce .btn-warning:active,
+#tinymce .btn-warning.active {
+  background-color: #c67605 \9;
+}
+#tinymce .btn-danger {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #da4f49;
+  background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
+  background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffbd362f', GradientType=0);
+  border-color: #bd362f #bd362f #802420;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #bd362f;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+#tinymce .btn-danger:hover,
+#tinymce .btn-danger:active,
+#tinymce .btn-danger.active,
+#tinymce .btn-danger.disabled,
+#tinymce .btn-danger[disabled] {
+  color: #ffffff;
+  background-color: #bd362f;
+  *background-color: #a9302a;
+}
+#tinymce .btn-danger:active,
+#tinymce .btn-danger.active {
+  background-color: #942a25 \9;
+}
+#tinymce .btn-success {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #5bb75b;
+  background-image: -moz-linear-gradient(top, #62c462, #51a351);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
+  background-image: -webkit-linear-gradient(top, #62c462, #51a351);
+  background-image: -o-linear-gradient(top, #62c462, #51a351);
+  background-image: linear-gradient(to bottom, #62c462, #51a351);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff51a351', GradientType=0);
+  border-color: #51a351 #51a351 #387038;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #51a351;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+#tinymce .btn-success:hover,
+#tinymce .btn-success:active,
+#tinymce .btn-success.active,
+#tinymce .btn-success.disabled,
+#tinymce .btn-success[disabled] {
+  color: #ffffff;
+  background-color: #51a351;
+  *background-color: #499249;
+}
+#tinymce .btn-success:active,
+#tinymce .btn-success.active {
+  background-color: #408140 \9;
+}
+#tinymce .btn-info {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #49afcd;
+  background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#2f96b4));
+  background-image: -webkit-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -o-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: linear-gradient(to bottom, #5bc0de, #2f96b4);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2f96b4', GradientType=0);
+  border-color: #2f96b4 #2f96b4 #1f6377;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #2f96b4;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+#tinymce .btn-info:hover,
+#tinymce .btn-info:active,
+#tinymce .btn-info.active,
+#tinymce .btn-info.disabled,
+#tinymce .btn-info[disabled] {
+  color: #ffffff;
+  background-color: #2f96b4;
+  *background-color: #2a85a0;
+}
+#tinymce .btn-info:active,
+#tinymce .btn-info.active {
+  background-color: #24748c \9;
+}
+#tinymce .btn-inverse {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #363636;
+  background-image: -moz-linear-gradient(top, #444444, #222222);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#444444), to(#222222));
+  background-image: -webkit-linear-gradient(top, #444444, #222222);
+  background-image: -o-linear-gradient(top, #444444, #222222);
+  background-image: linear-gradient(to bottom, #444444, #222222);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff444444', endColorstr='#ff222222', GradientType=0);
+  border-color: #222222 #222222 #000000;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #222222;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+#tinymce .btn-inverse:hover,
+#tinymce .btn-inverse:active,
+#tinymce .btn-inverse.active,
+#tinymce .btn-inverse.disabled,
+#tinymce .btn-inverse[disabled] {
+  color: #ffffff;
+  background-color: #222222;
+  *background-color: #151515;
+}
+#tinymce .btn-inverse:active,
+#tinymce .btn-inverse.active {
+  background-color: #080808 \9;
+}
+#tinymce utton.btn,
+#tinymce input[type="submit"].btn {
+  *padding-top: 3px;
+  *padding-bottom: 3px;
+}
+#tinymce button.btn::-moz-focus-inner,
+#tinymce input[type="submit"].btn::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+#tinymce button.btn.btn-large,
+#tinymce input[type="submit"].btn.btn-large {
+  *padding-top: 7px;
+  *padding-bottom: 7px;
+}
+#tinymce button.btn.btn-small,
+#tinymce input[type="submit"].btn.btn-small {
+  *padding-top: 3px;
+  *padding-bottom: 3px;
+}
+#tinymce button.btn.btn-mini,
+#tinymce input[type="submit"].btn.btn-mini {
+  *padding-top: 1px;
+  *padding-bottom: 1px;
+}
+#tinymce .btn-link,
+#tinymce .btn-link:active,
+#tinymce .btn-link[disabled] {
+  background-color: transparent;
+  background-image: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+#tinymce .btn-link {
+  border-color: transparent;
+  cursor: pointer;
+  color: #0088cc;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+#tinymce .btn-link:hover {
+  color: #005580;
+  text-decoration: underline;
+  background-color: transparent;
+}
+#tinymce .btn-link[disabled]:hover {
+  color: #333333;
+  text-decoration: none;
+}
+
+#tinymce [class^="icon-"],
+#tinymce  [class*=" icon-"] {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  *margin-right: .3em;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-image: url("/web/20150407050932/http://2013.stateofthemap.org/packages/heywater/themes/heywater/img/glyphicons-halflings.png");
+  background-position: 14px 14px;
+  background-repeat: no-repeat;
+  margin-top: 1px;
+}
+/* White icons with optional class, or on hover/active states of certain elements */
+#tinymce .icon-white,
+#tinymce .nav-pills > .active > a > [class^="icon-"],
+#tinymce .nav-pills > .active > a > [class*=" icon-"],
+#tinymce .nav-list > .active > a > [class^="icon-"],
+#tinymce .nav-list > .active > a > [class*=" icon-"],
+#tinymce .navbar-inverse .nav > .active > a > [class^="icon-"],
+#tinymce .navbar-inverse .nav > .active > a > [class*=" icon-"],
+#tinymce .dropdown-menu > li > a:hover > [class^="icon-"],
+#tinymce .dropdown-menu > li > a:hover > [class*=" icon-"],
+#tinymce .dropdown-menu > .active > a > [class^="icon-"],
+#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
+#tinymce .dropdown-submenu:hover > a > [class^="icon-"],
+#tinymce .dropdown-submenu:hover > a > [class*=" icon-"] {
+  background-image: url("/web/20150407050932/http://2013.stateofthemap.org/packages/heywater/themes/heywater/img/glyphicons-halflings-white.png");
+}
+#tinymce .icon-glass {background-position: 0      0;}
+#tinymce .icon-music {background-position: -24px 0;}
+#tinymce .icon-search {background-position: -48px 0;}
+#tinymce .icon-envelope {background-position: -72px 0;}
+#tinymce .icon-heart {background-position: -96px 0;}
+#tinymce .icon-star {background-position: -120px 0;}
+#tinymce .icon-star-empty {background-position: -144px 0;}
+#tinymce .icon-user {background-position: -168px 0;}
+#tinymce .icon-film {background-position: -192px 0;}
+#tinymce .icon-th-large {background-position: -216px 0;}
+#tinymce .icon-th {background-position: -240px 0;}
+#tinymce .icon-th-list {background-position: -264px 0;}
+#tinymce .icon-ok {background-position: -288px 0;}
+#tinymce .icon-remove {background-position: -312px 0;}
+#tinymce .icon-zoom-in {background-position: -336px 0;}
+#tinymce .icon-zoom-out {background-position: -360px 0;}
+#tinymce .icon-off {background-position: -384px 0;}
+#tinymce .icon-signal {background-position: -408px 0;}
+#tinymce .icon-cog {background-position: -432px 0;}
+#tinymce .icon-trash {background-position: -456px 0;}
+#tinymce .icon-home {background-position: 0 -24px;}
+#tinymce .icon-file {background-position: -24px -24px;}
+#tinymce .icon-time {background-position: -48px -24px;}
+#tinymce .icon-road {background-position: -72px -24px;}
+#tinymce .icon-download-alt {background-position: -96px -24px;}
+#tinymce .icon-download {background-position: -120px -24px;}
+#tinymce .icon-upload {background-position: -144px -24px;}
+#tinymce .icon-inbox {background-position: -168px -24px;}
+#tinymce .icon-play-circle {background-position: -192px -24px;}
+#tinymce .icon-repeat {background-position: -216px -24px;}
+#tinymce .icon-refresh {background-position: -240px -24px;}
+#tinymce .icon-list-alt {background-position: -264px -24px;}
+#tinymce .icon-lock {background-position: -287px -24px;}
+#tinymce .icon-flag {background-position: -312px -24px;}
+#tinymce .icon-headphones {background-position: -336px -24px;}
+#tinymce .icon-volume-off {background-position: -360px -24px;}
+#tinymce .icon-volume-down {background-position: -384px -24px;}
+#tinymce .icon-volume-up {background-position: -408px -24px;}
+#tinymce .icon-qrcode {background-position: -432px -24px;}
+#tinymce .icon-barcode {background-position: -456px -24px;}
+#tinymce .icon-tag {background-position: 0 -48px;}
+#tinymce .icon-tags {background-position: -25px -48px;}
+#tinymce .icon-book {background-position: -48px -48px;}
+#tinymce .icon-bookmark {background-position: -72px -48px;}
+#tinymce .icon-print {background-position: -96px -48px;}
+#tinymce .icon-camera {background-position: -120px -48px;}
+#tinymce .icon-font {background-position: -144px -48px;}
+#tinymce .icon-bold {background-position: -167px -48px;}
+#tinymce .icon-italic {background-position: -192px -48px;}
+#tinymce .icon-text-height {background-position: -216px -48px;}
+#tinymce .icon-text-width {background-position: -240px -48px;}
+#tinymce .icon-align-left {background-position: -264px -48px;}
+#tinymce .icon-align-center {background-position: -288px -48px;}
+#tinymce .icon-align-right {background-position: -312px -48px;}
+#tinymce .icon-align-justify {background-position: -336px -48px;}
+#tinymce .icon-list {background-position: -360px -48px;}
+#tinymce .icon-indent-left {background-position: -384px -48px;}
+#tinymce .icon-indent-right {background-position: -408px -48px;}
+#tinymce .icon-facetime-video {background-position: -432px -48px;}
+#tinymce .icon-picture {background-position: -456px -48px;}
+#tinymce .icon-pencil {background-position: 0 -72px;}
+#tinymce .icon-map-marker {background-position: -24px -72px;}
+#tinymce .icon-adjust {background-position: -48px -72px;}
+#tinymce .icon-tint {background-position: -72px -72px;}
+#tinymce .icon-edit {background-position: -96px -72px;}
+#tinymce .icon-share {background-position: -120px -72px;}
+#tinymce .icon-check {background-position: -144px -72px;}
+#tinymce .icon-move {background-position: -168px -72px;}
+#tinymce .icon-step-backward {background-position: -192px -72px;}
+#tinymce .icon-fast-backward {background-position: -216px -72px;}
+#tinymce .icon-backward {background-position: -240px -72px;}
+#tinymce .icon-play {background-position: -264px -72px;}
+#tinymce .icon-pause {background-position: -288px -72px;}
+#tinymce .icon-stop {background-position: -312px -72px;}
+#tinymce .icon-forward {background-position: -336px -72px;}
+#tinymce .icon-fast-forward {background-position: -360px -72px;}
+#tinymce .icon-step-forward {background-position: -384px -72px;}
+#tinymce .icon-eject {background-position: -408px -72px;}
+#tinymce .icon-chevron-left {background-position: -432px -72px;}
+#tinymce .icon-chevron-right {background-position: -456px -72px;}
+#tinymce .icon-plus-sign {background-position: 0 -96px;}
+#tinymce .icon-minus-sign {background-position: -24px -96px;}
+#tinymce .icon-remove-sign {background-position: -48px -96px;}
+#tinymce .icon-ok-sign {background-position: -72px -96px;}
+#tinymce .icon-question-sign {background-position: -96px -96px;}
+#tinymce .icon-info-sign {background-position: -120px -96px;}
+#tinymce .icon-screenshot {background-position: -144px -96px;}
+#tinymce .icon-remove-circle {background-position: -168px -96px;}
+#tinymce .icon-ok-circle {background-position: -192px -96px;}
+#tinymce .icon-ban-circle {background-position: -216px -96px;}
+#tinymce .icon-arrow-left {background-position: -240px -96px;}
+#tinymce .icon-arrow-right {background-position: -264px -96px;}
+#tinymce .icon-arrow-up {background-position: -289px -96px;}
+#tinymce .icon-arrow-down {background-position: -312px -96px;}
+#tinymce .icon-share-alt {background-position: -336px -96px;}
+#tinymce .icon-resize-full {background-position: -360px -96px;}
+#tinymce .icon-resize-small {background-position: -384px -96px;}
+#tinymce .icon-plus {background-position: -408px -96px;}
+#tinymce .icon-minus {background-position: -433px -96px;}
+#tinymce .icon-asterisk {background-position: -456px -96px;}
+#tinymce .icon-exclamation-sign {background-position: 0 -120px;}
+#tinymce .icon-gift {background-position: -24px -120px;}
+#tinymce .icon-leaf {background-position: -48px -120px;}
+#tinymce .icon-fire {background-position: -72px -120px;}
+#tinymce .icon-eye-open {background-position: -96px -120px;}
+#tinymce .icon-eye-close {background-position: -120px -120px;}
+#tinymce .icon-warning-sign {background-position: -144px -120px;}
+#tinymce .icon-plane {background-position: -168px -120px;}
+#tinymce .icon-calendar {background-position: -192px -120px;}
+#tinymce .icon-random {background-position: -216px -120px;width: 16px;}
+#tinymce .icon-comment {background-position: -240px -120px;}
+#tinymce .icon-magnet {background-position: -264px -120px;}
+#tinymce .icon-chevron-up {background-position: -288px -120px;}
+#tinymce .icon-chevron-down {background-position: -313px -119px;}
+#tinymce .icon-retweet {background-position: -336px -120px;}
+#tinymce .icon-shopping-cart {background-position: -360px -120px;}
+#tinymce .icon-folder-close {background-position: -384px -120px;}
+#tinymce .icon-folder-open {background-position: -408px -120px;width: 16px;}
+#tinymce .icon-resize-vertical {background-position: -432px -119px;}
+#tinymce .icon-resize-horizontal {background-position: -456px -118px;}
+#tinymce .icon-hdd {background-position: 0 -144px;}
+#tinymce .icon-bullhorn {background-position: -24px -144px;}
+#tinymce .icon-bell {background-position: -48px -144px;}
+#tinymce .icon-certificate {background-position: -72px -144px;}
+#tinymce .icon-thumbs-up {background-position: -96px -144px;}
+#tinymce .icon-thumbs-down {background-position: -120px -144px;}
+#tinymce .icon-hand-right {background-position: -144px -144px;}
+#tinymce .icon-hand-left {background-position: -168px -144px;}
+#tinymce .icon-hand-up {background-position: -192px -144px;}
+#tinymce .icon-hand-down {background-position: -216px -144px;}
+#tinymce .icon-circle-arrow-right {background-position: -240px -144px;}
+#tinymce .icon-circle-arrow-left {background-position: -264px -144px;}
+#tinymce .icon-circle-arrow-up {background-position: -288px -144px;}
+#tinymce .icon-circle-arrow-down {background-position: -312px -144px;}
+#tinymce .icon-globe {background-position: -336px -144px;}
+#tinymce .icon-wrench {background-position: -360px -144px;}
+#tinymce .icon-tasks {background-position: -384px -144px;}
+#tinymce .icon-filter {background-position: -408px -144px;}
+#tinymce .icon-briefcase {background-position: -432px -144px;}
+#tinymce .icon-fullscreen {background-position: -456px -144px;}

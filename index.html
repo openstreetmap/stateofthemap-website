@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<link type="text/css" rel="stylesheet" href="sotm_files/banner-styles.css">
+<meta http-equiv="X-UA-Compatible" content="IE=9">	
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>State of the Map 2013 :: Home</title>
+<meta name="description" content="OpenStreetMap StateOfTheMap 2013">
+
+<link rel="stylesheet" type="text/css" href="sotm_files/ccm.css">
+<script type="text/javascript" src="sotm_files/jquery_002.js"></script>
+<script type="text/javascript" src="sotm_files/ccm.js"></script>
+<style type="text/css"> 
+#blockStyle525Sidebar38 {background-repeat:no-repeat; } 
+#blockStyle639Main39 {background-repeat:no-repeat; } 
+#blockStyle559Main37 {background-repeat:no-repeat; } 
+</style>
+<link rel="stylesheet" type="text/css" href="sotm_files/view_002.css">
+<script type="text/javascript" src="sotm_files/bootstrap_carousel.js"></script>
+<link rel="stylesheet" type="text/css" href="sotm_files/view.css">
+		<link href="sotm_files/bootstrap.css" rel="stylesheet">
+				
+		<!--[if !IE]><!-->
+			<link href="sotm_files/bootstrap_colors.css" rel="stylesheet">
+			<link href="sotm_files/bootstrap_responsive.css" rel="stylesheet">
+			<link href="sotm_files/style_colors.css" rel="stylesheet">
+		<!--<![endif]-->
+
+		<!-- ie 9 -->
+		<!--[if IE 9]>
+			<link href="/packages/heywater/themes/heywater/css/bootstrap_colors.css" rel="stylesheet">
+			<link href="/packages/heywater/themes/heywater/css/bootstrap_responsive.css" rel="stylesheet">
+			<link href="/packages/heywater/themes/heywater/css/style_colors.css" rel="stylesheet">
+		<![endif]-->
+		
+		<!-- below ie 9 -->
+		<!--[if lt IE 9]>
+			<style>
+#wrapper .navbar-inner {
+	min-height: 40px;
+	max-height: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #fafafa;
+	*background-color: #fafafa;
+	box-shadow: 0 1px 4px rgba(194, 194, 194, 0.1);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #d4d4d4;
+	*zoom: 1;
+	position:relative;
+	-pie-background: linear-gradient(#ffffff, #f2f2f2);
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+#wrapper .navbar-dark .navbar-inner {
+	color: #eeeeee;
+	text-shadow:none;
+	background-color: #0088cc;
+	*background-color: #0088cc;
+	background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+	background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+	background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+	background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+	border-color: #0077b3 #0077b3 #bfbfbf;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.075);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.075);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.075);
+	*zoom: 1;
+	position:relative;
+	-pie-background: linear-gradient(#0088cc, #0077b3);
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+#wrapper .navbar-dark .dropdown-menu li > a:hover,
+#wrapper .navbar-dark .dropdown-menu li > a:focus,
+#wrapper .navbar-dark .dropdown-submenu:hover > a {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #035d8b;
+	*background-color: #035d8b;
+	background-image:none;
+	*background-image:none;
+	*zoom: 1;
+	position:relative;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+#wrapper .navbar-inverse .navbar-inner {
+	background-color: #1b1b1b;
+	*background-color: #1b1b1b;
+	border-color: #252525;
+	*zoom: 1;
+	position:relative;
+	-pie-background: linear-gradient(#222222, #111111);
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+#wrapper .navbar .btn-navbar {display: none;}
+	
+#wrapper .ccm-tags-display{
+	min-height: 20px;padding: 19px;margin-bottom: 20px;background-color: #f5f5f5;border: 1px solid #e3e3e3;
+	-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	position:relative;
+	zoom:1;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+	
+#wrapper #main-content-sidebar-archives{
+	min-height: 20px;
+	padding: 19px;
+	margin-bottom: 20px;
+	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	position:relative;
+	zoom:1;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+		
+#wrapper .ccm-tags-display ul.ccm-tag-list li {	
+	color: #fff;padding: 2px;
+	margin: 3px 6px 3px 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	float: left;
+	line-height: 13px;height: 13px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 2px 4px;
+	font-size: 11.844px;
+	font-weight: bold;
+	line-height: 14px;
+	color: #ffffff;
+	vertical-align: baseline;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #999999;
+	cursor:pointer;
+	position:relative;
+	zoom:1;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+	
+#wrapper .sidebar ul.nav{
+	min-height: 20px;
+	padding: 19px;
+	margin-bottom: 20px;
+	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	list-style: none;
+	*zoom: 1;
+	position:relative;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+
+/* BUTTONS */
+
+#wrapper .btn {
+	display: inline-block;
+	*display: inline;
+	padding: 4px 12px;
+	/* IE 7 hack*/
+	*+padding-left: 5px;
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	color: #333333;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	background-color: #f5f5f5;
+	*background-color: #f5f5f5; 
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #bbbbbb;
+	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	*margin-left: .3em;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(194,194,194,.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(194,194,194,.05);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(194,194,194,.05);
+	*zoom: 1;
+	position:relative;
+	-pie-background: linear-gradient(#ffffff, #e6e6e6);
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+
+#wrapper .btn-large {
+	padding: 11px 19px;
+	font-size: 17.5px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+#wrapper .btn-small {
+	padding: 2px 10px;  
+	font-size: 11.9px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#wrapper .btn-mini {
+	padding: 0 6px;
+	font-size: 10.5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#wrapper .btn-block {
+	display: block;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/* IE 7 correction*/
+#wrapper .btn-large.btn-primary{  *+padding-left:11px; }
+#wrapper .btn-small.btn-primary{  *+padding-left:5px; }
+
+
+#wrapper .btn-primary {
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #006dcc;
+	*background-color: #006dcc;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #0044cc;
+	border-bottom-color: #002a80;
+	*zoom: 1;
+	position:relative;
+	-pie-background: linear-gradient(#0088cc, #0044cc);
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+#wrapper .btn-warning {
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #f89406;
+	*background-color: #f89406;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	border-color: #f89406 #f89406 #ad6704;
+	*zoom: 1;
+	position:relative;
+	-pie-background: linear-gradient(#fbb450, #f89406);
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+#wrapper .btn-danger {
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #da4f49;
+	*background-color: #bd362f;
+	border-color: #bd362f #bd362f #802420;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	*zoom: 1;
+	position:relative;
+	-pie-background: linear-gradient(#ee5f5b, #bd362f);
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+#wrapper .btn-success {
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #5bb75b;
+	border-color: #51a351 #51a351 #387038;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	*background-color: #51a351;
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	*zoom: 1;
+	position:relative;
+	-pie-background: linear-gradient(#62c462, #51a351);
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+#wrapper .btn-info {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #49afcd;
+  border-color: #2f96b4 #2f96b4 #1f6377;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #2f96b4;
+  *zoom: 1;
+  position:relative;
+  -pie-background: linear-gradient(#5bc0de, #2f96b4);
+  behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+#wrapper .btn-inverse {
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #363636;
+	*background-color: #222222;
+	border-color: #222222 #222222 #000000;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	*zoom: 1;
+	position:relative;
+	-pie-background: linear-gradient(#444444, #222222);
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+#wrapper .btn-link {
+	background: none;
+	*background: none;
+	*background-image: none;
+	border:0;
+	*zoom: 1;
+	position:relative;
+	-pie-background:none;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+#wrapper .input-append .btn{
+	*zoom: 1;
+	position:relative;
+	display: inline-block;
+	padding: 4px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	vertical-align: top;
+	cursor: pointer;
+	background-color: #ffffff;
+	color: #555555;
+	border: 1px solid #cccccc;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	-webkit-border-radius: 0 14px 14px 0;
+	-moz-border-radius: 0 14px 14px 0;
+	border-radius: 0 14px 14px 0;
+	-webkit-box-shadow:0px;
+	-moz-box-shadow: 0px;
+	box-shadow:0px;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+#wrapper  .form-search .input-append  .btn-primary {
+	margin-left:-4px;
+	padding-left:12px; 
+	*+padding-top:0px; 
+	*+padding-bottom:0px; 
+	*color: #ffffff;
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #006dcc;
+	*background-color: #006dcc;
+	-webkit-border-radius: 0 14px 14px 0;
+	-moz-border-radius: 0 14px 14px 0;
+	border-radius: 0 14px 14px 0;
+	border:1px solid #002a80;
+	border-color: #0044cc #0044cc #002a80;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	*zoom: 1;
+	position:relative;
+	-pie-background: linear-gradient(#0088cc, #0044cc);
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+	
+#wrapper  .form-search .input-append  .btn-inverse{
+	*color: #ffffff;
+	color: #ffffff;
+	*border:0;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #363636;
+	*background-color: #363636;
+
+	-webkit-border-radius: 0 14px 14px 0;
+	-moz-border-radius: 0 14px 14px 0;
+	border-radius: 0 14px 14px 0;
+	
+	border:1px solid #222222;
+	border-color: #222222 #222222 #000000;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	*zoom: 1;
+	position:relative;
+	-webkit-box-shadow:0px;
+	-moz-box-shadow: 0px;
+	box-shadow:0px;
+	-pie-background: linear-gradient(#444444, #222222);
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+	
+
+
+#wrapper .navbar-inner .form-search .input-append .btn {
+	*zoom: 1;
+	position:relative;
+	display: inline-block;
+	padding: 4px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	vertical-align: top;
+	cursor: pointer;
+	background-color: #ffffff;
+	color: #555555;
+	border: 1px solid #cccccc;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	-webkit-border-radius: 0 14px 14px 0;
+	-moz-border-radius: 0 14px 14px 0;
+	border-radius: 0 14px 14px 0;
+	-webkit-box-shadow:0px;
+	-moz-box-shadow: 0px;
+	box-shadow:0px;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+#wrapper .navbar-inner .form-search .input-append .btn-primary {
+	margin-left:-4px;
+	padding-left:12px; 
+	*+padding-top:0px; 
+	*+padding-bottom:0px;
+	color: #ffffff;	
+	*color: #ffffff;
+	
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #006dcc;
+	*background-color: #006dcc;
+	-webkit-border-radius: 0 14px 14px 0;
+	-moz-border-radius: 0 14px 14px 0;
+	border-radius: 0 14px 14px 0;
+	border:1px solid #002a80;
+	border-color: #0044cc #0044cc #002a80;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	*zoom: 1;
+	position:relative;
+	-pie-background: linear-gradient(#0088cc, #0044cc);
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+	
+#wrapper .navbar-inner .form-search .input-append .btn-inverse{
+	*color: #ffffff;
+	color: #ffffff;
+	*border:0;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #363636;
+	*background-color: #363636;
+
+	-webkit-border-radius: 0 14px 14px 0;
+	-moz-border-radius: 0 14px 14px 0;
+	border-radius: 0 14px 14px 0;
+	
+	border:1px solid #222222;
+	border-color: #222222 #222222 #000000;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	*zoom: 1;
+	position:relative;
+	-webkit-box-shadow:0px;
+	-moz-box-shadow: 0px;
+	box-shadow:0px;
+	-pie-background: linear-gradient(#444444, #222222);
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+
+
+	
+	
+	
+#wrapper .form-search .input-append .search-query {
+	margin-bottom: 0;
+	padding: 4px 14px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-border-radius: 14px 0 0 14px;
+	-moz-border-radius: 14px 0 0 14px;
+	border-radius: 14px 0 0 14px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border linear .2s, box-shadow linear .2s;
+	-moz-transition: border linear .2s, box-shadow linear .2s;
+	-o-transition: border linear .2s, box-shadow linear .2s;
+	transition: border linear .2s, box-shadow linear .2s;
+	*zoom: 1;
+	position:relative;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+/*Box styles*/
+#wrapper .box {
+	margin-bottom: 20px;
+	padding: 14px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	*zoom: 1;
+	position:relative;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+	
+#wrapper .box-light{
+	background-color: #d9edf7;
+	border:1px solid #bce8f1;
+	color: #3a87ad;
+	*zoom: 1;
+	position:relative;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+#wrapper .box-dark{
+	color: #ffffff;
+	background-color: #006dcc;
+	*background-color: #006dcc;
+	*zoom: 1;
+	position:relative;
+	-pie-background: linear-gradient(#0088cc, #0044cc);
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+	
+	
+#wrapper .alert {
+	padding: 8px 35px 8px 14px;
+	margin-bottom: 20px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	background-color: #fcf8e3;
+	border: 1px solid #fbeed5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	*zoom: 1;
+	position:relative;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+
+#wrapper .alert-success {
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+	color: #468847;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+#wrapper .alert-danger,
+#wrapper .alert-error {
+	background-color: #f2dede;
+	border-color: #eed3d7;
+	color: #b94a48;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+#wrapper .alert-info {
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+	color: #3a87ad;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+#wrapper textarea, #wrapper input[type="text"], #wrapper input[type="password"], #wrapper input[type="datetime"], #wrapper input[type="datetime-local"], #wrapper input[type="date"], #wrapper input[type="month"], #wrapper input[type="time"], #wrapper input[type="week"], #wrapper input[type="number"], #wrapper input[type="email"], #wrapper input[type="url"], #wrapper input[type="search"], #wrapper input[type="tel"], #wrapper input[type="color"], #wrapper .uneditable-input {
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border linear .2s, box-shadow linear .2s;
+	-moz-transition: border linear .2s, box-shadow linear .2s;
+	-o-transition: border linear .2s, box-shadow linear .2s;
+	transition: border linear .2s, box-shadow linear .2s;
+	*zoom: 1;
+	position:relative;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+
+#wrapper .img-rounded{
+	*zoom: 1;
+	position:relative;
+	-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+#wrapper .carousel-caption{
+	color:#FFF;
+	-webkit-border-radius: 0 0 6px 6px;
+	-moz-border-radius: 0 0 6px 6px;
+	border-radius: 0 0 6px 6px;
+	*zoom: 1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=40)";
+    filter:alpha(opacity=40);
+	-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+#wrapper textarea:focus,
+#wrapper input[type="text"]:focus,
+#wrapper input[type="password"]:focus,
+#wrapper input[type="datetime"]:focus,
+#wrapper input[type="datetime-local"]:focus,
+#wrapper input[type="date"]:focus,
+#wrapper input[type="month"]:focus,
+#wrapper input[type="time"]:focus,
+#wrapper input[type="week"]:focus,
+#wrapper input[type="number"]:focus,
+#wrapper input[type="email"]:focus,
+#wrapper input[type="url"]:focus,
+#wrapper input[type="search"]:focus,
+#wrapper input[type="tel"]:focus,
+#wrapper input[type="color"]:focus,
+#wrapper .uneditable-input:focus {
+  border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+  behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+
+#wrapper .breadcrumb {
+	padding: 8px 15px;
+	margin: 0 0 20px;
+	list-style: none;
+	background-color: #f5f5f5;
+	*background-color: #f5f5f5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	*zoom: 1;
+	position:relative;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+#wrapper .navbar-dark .btn-navbar {
+  display: none;
+  float: right;
+  padding: 7px 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #035d8b;
+  background-image: none;
+  *background-color: #035d8b;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); 
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.075);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.075);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.075);
+}
+
+
+#wrapper .well {
+	min-height: 20px;
+	padding: 19px;
+	margin-bottom: 20px;
+	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	*zoom: 1;
+	position:relative;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+#wrapper .label{
+	display: inline-block;
+	padding: 2px 4px;
+	font-size: 11.844px;
+	font-weight: bold;
+	line-height: 14px;
+	color: #ffffff;
+	vertical-align: baseline;
+	white-space: nowrap;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #999999;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	*zoom: 1;
+	position:relative;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+
+	
+#wrapper .badge {
+	display: inline-block;
+	padding: 2px 4px;
+	font-size: 11.844px;
+	font-weight: bold;
+	line-height: 14px;
+	color: #ffffff;
+	vertical-align: baseline;
+	white-space: nowrap;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #999999;
+	padding-left: 9px;
+	padding-right: 9px;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+	*zoom: 1;
+	position:relative;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+#wrapper .table-bordered {
+	border: 1px solid #dddddd;
+	border-collapse: separate;
+	*border-collapse: collapse;
+	border-left: 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	*zoom: 1;
+	position:relative;
+	behavior: url(/packages/heywater/themes/heywater/elements/PIE.php);
+}
+
+
+</style>		<!--<![endif]-->
+		
+		<link href="sotm_files/typography.css" rel="stylesheet">
+		<link href="sotm_files/style.css" rel="stylesheet">
+		
+		<script type="text/javascript" src="sotm_files/bootstrap.js"></script>
+		<script type="text/javascript" src="sotm_files/scripts.js"></script>
+		
+		<!--[if lt IE 9]>
+			<script src="/packages/heywater/themes/heywater/js/jquery.pseudo.js"></script>
+			<script src="/packages/heywater/themes/heywater/js/html5.js"></script>
+		<![endif]-->
+		
+	</head>	<body><div id="wm-ipp" style="display: none;" lang="en">
+
+</div>
+</div>
+	
+		<div id="page">
+			<div id="wrapper">
+					<div class="container">
+		<div class="row-fluid top">
+			<div class="span6 logo">
+				<a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/" class="logo pull-left">
+					<div style="container">&nbsp;</div><img class="ccm-image-block img-rounded" alt="SotM2013 bull logo" src="sotm_files/sotmBull214.png" border="0" height="100" width="214">				</a>
+			</div>
+			<div class="span6">
+			<!-- GLOBAL Top Right -->
+				<div style="container">&nbsp;</div><div class="pull-right">	<div id="blockStyle559Main37" class=" ccm-block-styles">
+<p style="text-align: right;"><span style="color: #666;"><br></span></p>
+<h2 style="text-align: right;"><span style="color: #666;">State of the Map 2013<br></span></h2>
+<p style="text-align: right; white-space: nowrap;"><em>the</em>&nbsp;OpenStreetMap&nbsp;<em>event:&nbsp;6-8&nbsp;September&nbsp;2013</em></p></div></div>			</div>
+		</div>
+	</div>
+
+	<div class="navbar-wrapper">
+		<div class="container">
+			<div id="hnav" class="navbar  navbar-inverse"><!--  navbar-inverse -->
+				<div class="navbar-inner ">
+					<!-- Responsive Navbar Part 1 -->
+					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+					<!-- Responsive Navbar Part 2 -->
+					<div class="nav-collapse collapse">
+						<ul id="notouch" class="nav"><li class="active"><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/">Home</a></li><li class="dropdown"><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/" class="dropdown-toggle disabled" data-toggle="dropdown" data-event="hover"> Information  <b class="caret"></b></a><ul class="dropdown-menu"><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/videos/">Event Videos</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/programme/">The Programme</a></li><li class="dropdown"><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/travel/" class="dropdown-toggle dropdown-sub disabled" data-toggle="dropdown" data-event="hover"> How to get here  <b class="arrow"></b></a><ul class="dropdown-menu dropdown-submenu"><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/travel/walking-station/">walking from New Street station</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/travel/walking-moor-street-station/">walking from Moor Street station</a></li></ul></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/whos-coming/">Who's coming</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/info-presenters/">Info for Presenters</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/venue/">The Venue</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/september-2013/">Maptember</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/birmingham/">About Birmingham</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/about-brummies/">About Brummies</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/booking/">How to book</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/posters/">Posters</a></li></ul></li><li class="dropdown"><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/sponsors/" class="dropdown-toggle disabled" data-toggle="dropdown" data-event="hover"> Sponsors  <b class="caret"></b></a><ul class="dropdown-menu"><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/sponsors/call-sponsors/">Call for Sponsors</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/sponsors/all-sponsors/">All Our Sponsors</a></li></ul></li><li class="dropdown"><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/press/" class="dropdown-toggle disabled" data-toggle="dropdown" data-event="hover"> Press  <b class="caret"></b></a><ul class="dropdown-menu"><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/press/regional/">Regional</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/press/national_international/">National/International</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/press/walking/">Walking</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/press/cycling/">Cycling</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/press/logos/">Logos</a></li></ul></li><li class="dropdown"><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/about/" class="dropdown-toggle disabled" data-toggle="dropdown" data-event="hover"> The Organisers  <b class="caret"></b></a><ul class="dropdown-menu"><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/about/contact-us/">Contact Us</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/about/credits/">Team &amp; Credits</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/about/logo/">About Our Logo</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/about/maps-matter/">Maps matter</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/about/photo-competition/">Photo Competition</a></li></ul></li><li class="dropdown"><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/" class="dropdown-toggle disabled" data-toggle="dropdown" data-event="hover"> Blog  <b class="caret"></b></a><ul class="dropdown-menu"><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/gift-keeps-giving/">The gift that keeps on giving</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/one-hundred/">Meet our 100th attendee!</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/half-way-there/">Half way there</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/swot-analysis-inspires-presentation-ideas/">SWOT analysis inspires presentation ideas</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/sotm-boat/">SOTM by boat</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/busy-june/">A busy June</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/birmingham-true-home-lawn-tennis/">Birmingham - The true home of Lawn Tennis</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/mates-rates/">Mates Rates</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/accommodation-sotm-2013/">Accommodation for SotM 2013</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/personalised-mugs-bytemark/">Personalised mugs from Bytemark</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/introducing-sotm-hackday/">Introducing SotM Hackday</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/photo-competition/">Photo Competition</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/party-starts-early/">The party starts early</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/virtual-sotm/">A virtual SOTM?</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/it-begins/">It Begins</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/your-pledge-openstreetmap/">Your pledge to OpenStreetMap</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/must-see-moments-sotm-2013/">Must see moments of SotM 2013</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/and-winner/">And the winner is...</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/state-map-hackday/">State of the Map hackday</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/changing-ratio-openstreetmap-community-diversity-sotm-2013/">Changing the Ratio: OpenStreetMap Community Diversity at SotM 2013</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/2011-2013-new-openstreetmap-logo/">From 2011 to 2013: A new OpenStreetMap logo</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/work-openstreetmap-foundation/">The work of the OpenStreetMap Foundation</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/upcoming-changes-openstreetmaporg-website/">Upcoming changes to OpenStreetMap.org website</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/sotm-2014-and-local-events/">SotM 2014 and local events</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/six-months-sotm-2013/">Six months on from SotM 2013</a></li></ul></li></ul><ul id="touch" class="nav nohover hidden"><li class="active"><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/">Home</a></li><li class="dropdown "><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/"> Information  </a></li>
+				<li class="dropdown "><a href="#" class="dropdown-toggle touchmenu"><b class="caret"></b></a><ul class="dropdown-menu"><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/videos/">Event Videos</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/programme/">The Programme</a></li><li class="dropdown "><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/travel/" class=" dropdown-sub"> How to get here </a> 
+				<a href="javascript:zoom();" class="dropdown-sub touchd">›</a>
+			
+			<ul class="dropdown-menu dropdown-submenu"><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/travel/walking-station/">walking from New Street station</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/travel/walking-moor-street-station/">walking from Moor Street station</a></li></ul></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/whos-coming/">Who's coming</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/info-presenters/">Info for Presenters</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/venue/">The Venue</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/september-2013/">Maptember</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/birmingham/">About Birmingham</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/about-brummies/">About Brummies</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/booking/">How to book</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/posters/">Posters</a></li></ul></li><li class="dropdown "><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/sponsors/"> Sponsors  </a></li>
+				<li class="dropdown "><a href="#" class="dropdown-toggle touchmenu"><b class="caret"></b></a><ul class="dropdown-menu"><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/sponsors/call-sponsors/">Call for Sponsors</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/sponsors/all-sponsors/">All Our Sponsors</a></li></ul></li><li class="dropdown "><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/press/"> Press  </a></li>
+				<li class="dropdown "><a href="#" class="dropdown-toggle touchmenu"><b class="caret"></b></a><ul class="dropdown-menu"><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/press/regional/">Regional</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/press/national_international/">National/International</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/press/walking/">Walking</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/press/cycling/">Cycling</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/press/logos/">Logos</a></li></ul></li><li class="dropdown "><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/about/"> The Organisers  </a></li>
+				<li class="dropdown "><a href="#" class="dropdown-toggle touchmenu"><b class="caret"></b></a><ul class="dropdown-menu"><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/about/contact-us/">Contact Us</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/about/credits/">Team &amp; Credits</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/about/logo/">About Our Logo</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/about/maps-matter/">Maps matter</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/about/photo-competition/">Photo Competition</a></li></ul></li><li class="dropdown "><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/"> Blog  </a></li>
+				<li class="dropdown "><a href="#" class="dropdown-toggle touchmenu"><b class="caret"></b></a><ul class="dropdown-menu"><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/gift-keeps-giving/">The gift that keeps on giving</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/one-hundred/">Meet our 100th attendee!</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/half-way-there/">Half way there</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/swot-analysis-inspires-presentation-ideas/">SWOT analysis inspires presentation ideas</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/sotm-boat/">SOTM by boat</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/busy-june/">A busy June</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/birmingham-true-home-lawn-tennis/">Birmingham - The true home of Lawn Tennis</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/mates-rates/">Mates Rates</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/accommodation-sotm-2013/">Accommodation for SotM 2013</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/personalised-mugs-bytemark/">Personalised mugs from Bytemark</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/introducing-sotm-hackday/">Introducing SotM Hackday</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/photo-competition/">Photo Competition</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/party-starts-early/">The party starts early</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/virtual-sotm/">A virtual SOTM?</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/it-begins/">It Begins</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/your-pledge-openstreetmap/">Your pledge to OpenStreetMap</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/must-see-moments-sotm-2013/">Must see moments of SotM 2013</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/and-winner/">And the winner is...</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/state-map-hackday/">State of the Map hackday</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/changing-ratio-openstreetmap-community-diversity-sotm-2013/">Changing the Ratio: OpenStreetMap Community Diversity at SotM 2013</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/2011-2013-new-openstreetmap-logo/">From 2011 to 2013: A new OpenStreetMap logo</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/work-openstreetmap-foundation/">The work of the OpenStreetMap Foundation</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/upcoming-changes-openstreetmaporg-website/">Upcoming changes to OpenStreetMap.org website</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/sotm-2014-and-local-events/">SotM 2014 and local events</a></li><li class=""><a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/blog/six-months-sotm-2013/">Six months on from SotM 2013</a></li></ul></li></ul>
+<script type="text/javascript">
+
+ 
+  
+  
+	$('#hnav').each(function() {$(this).removeClass('navbar-dark');});
+	$('#hnav').each(function() {$(this).addClass('navbar-inverse');});
+</script> 
+<form class="navbar-search nav-search-dark form-search pull-right" action="/web/20150324203723/http://2013.stateofthemap.org/index.php/search/" method="get">
+	<div class="input-append">
+					<input name="search_paths[]" value="" type="hidden">
+				<input name="query" placeholder="search terms" class="span2 search-query input-medium" type="text">
+		<button name="submit" type="submit" class="btn btn-primary btn-inverse">Search</button>
+	</div>
+</form>
+											</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+					<div class="container wrap">
+					<div class="row-fluid"><div class="span12"><div class="row-fluid">
+	<div id="heytheme_carousel610" class="span12 carousel slide" style="max-width:1170px;max-height:350px;">
+		<div class="carousel-inner">
+				
+			<div class="item active">
+				<img src="sotm_files/sotmGroupB1170x350.jpg" class="img-rounded" alt="">
+							</div>
+				
+			<div class="item ">
+				<img src="sotm_files/zoomedMap.png" class="img-rounded" alt="">
+							</div>
+				
+			<div class="item ">
+				<img src="sotm_files/bham1.jpg" class="img-rounded" alt="">
+							</div>
+				
+			<div class="item ">
+				<img src="sotm_files/bham12.jpg" class="img-rounded" alt="">
+							</div>
+				
+			<div class="item ">
+				<img src="sotm_files/bham13.jpg" class="img-rounded" alt="">
+							</div>
+				
+			<div class="item ">
+				<img src="sotm_files/changes.png" class="img-rounded" alt="">
+							</div>
+				
+			<div class="item ">
+				<img src="sotm_files/bham14.jpg" class="img-rounded" alt="">
+							</div>
+				
+			<div class="item ">
+				<img src="sotm_files/bham16.jpg" class="img-rounded" alt="">
+							</div>
+				</div>
+		
+		<a class="left carousel-control" href="#heytheme_carousel610" data-slide="prev">‹</a>
+		<a class="right carousel-control" href="#heytheme_carousel610" data-slide="next">›</a> 
+		
+	</div>
+</div>	
+
+<script type="text/javascript">
+ $(document).ready(function() {
+	$('#heytheme_carousel610').carousel({ interval: 12000, pause:'hover'});
+});
+</script></div></div>	
+										<div class="row-fluid">
+						<div class="span9 main">
+					<div class="row-fluid"><div class="span12 main">	<div id="blockStyle639Main39" class="well ccm-block-styles">
+<ul>
+<li>If you were at SotM 2013, the <a title="Team &amp; Credits" href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/about/credits/">team</a> thanks you for your company <em>- </em>and please help us to make future SotMs even better by filling in our short <a href="http://web.archive.org/web/20150324203723/https://docs.google.com/forms/d/1Pdz8j6JHKnwXn52vcZjoVDnYcjcffBvnSzrmaKrKFZg/viewform" target="_blank">feedback form</a></li>
+<li>Most of the two main tracks were recorded and <a title="Event Videos" href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/info/videos/">videos</a> are available, along with some interviews that were filmed with people who were at the conference.</li>
+</ul></div></div></div><div class="row-fluid"><div class="span12 main"><h2>The 2013 global OpenStreetMap convention was in Birmingham, UK</h2></div></div><div class="row-fluid"><div class="span12 main"><p>OpenStreetMap's annual international conference, <strong>State of the Map</strong> returned to the UK, the first time it has come to the UK since the very first State of the Map in 2007.</p>
+<p>State of the Map is the global gathering for everyone contributes to 
+and/or uses OpenStreetMap. We assemble to celebrate the scale 
+of&nbsp;the changes and achievements so far. There are keynotes and 
+breakout streams of presentations and workshops examining current 
+practice, organisation and relationships; and preparing for the changes 
+we can expect in coming years. In fact, so much has happened and is 
+happening to OpenStreetMap that the theme of 2013's conference was <strong><em>"Change"</em></strong>.</p>
+<p>&nbsp;</p>
+<table style="margin-left: 32px; width: 544px; height: 107px;">
+<tbody>
+<tr><th style="text-align: left;"><span style="font-size: small;">2007</span></th><th style="text-align: left;"><span style="font-size: small;">2013</span></th></tr>
+<tr>
+<td><span style="font-size: small;">10,000 registered users</span></td>
+<td><span style="font-size: small;">1.1 million registered users</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small;">50 million GPS points</span></td>
+<td><span style="font-size: small;">3.2 billion GPS points</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small;">Advanced editor: JOSM version 321</span></td>
+<td><span style="font-size: small;"><a href="http://web.archive.org/web/20150324203723/https://josm.openstreetmap.de/" target="_blank">JOSM</a> version 6115</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small;">Easy editor: Potlatch 0.5</span></td>
+<td><span style="font-size: small;"><a href="http://web.archive.org/web/20150324203723/http://blog.openstreetmap.org/2013/05/07/openstreetmap-launches-all-new-easy-map-editor-and-announces-funding-appeal/" target="_blank">iD editor launched</a></span></td>
+</tr>
+<tr>
+<td><span style="font-size: small;">time before edits appeared on the map: about a week</span></td>
+<td><span style="font-size: small;">about a minute</span></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>There's also always space for ad-hoc presentations in Lightning Talks
+ slots, and for in-depth community discussions in the Birds of a Feather
+ space. And following on from State of the Map on 
+Friday-Saturday-Sunday, on Monday there was a Hack Day at nearby 
+Farraday Wharf.</p>
+<p>State of the Map was held in Manchester in 2007, Limerick 2008, 
+Amsterdam 2009, Girona 2010, Denver 2011 and Tokyo 2012 - but with 300 
+attendees from all over the globe, 2013 in Birmingham was the biggest 
+SotM yet!</p></div></div><div class="row-fluid"><div class="span12 main"><p><small>State Of The Map would not be possible without the generous support from our sponsors!</small></p>
+<table border="0" align="center">
+<tbody>
+<tr>
+<td>
+<p>&nbsp;</p>
+<p>&nbsp;<img class="img-rounded" style="vertical-align: top;" src="sotm_files/208c468ffb0ab4980ca5121887cec3dc_f65.jpg" alt="AND_1-pms-300x160.jpg" height="107" width="200"></p>
+</td>
+<td>&nbsp;<img class="img-rounded" style="margin-left: 10px; float: right;" src="sotm_files/959e70596ec77393039183a4899e6467_f69.jpg" alt="skobbler-logo_512_72dpi.jpg" height="83" width="160"></td>
+<td><br>&nbsp;<img class="img-rounded" style="float: right; margin-left: 10px; margin-right: 10px;" src="sotm_files/120px-AmazonWebservices_Logo.png" alt="120px-AmazonWebservices_Logo.svg.png" height="48" width="120"></td>
+</tr>
+<tr>
+<td><img class="img-rounded" style="vertical-align: top; margin-top: -16px;" src="sotm_files/MapQuest_Logo_Small.png" alt="MapQuest_Logo_Small.png" height="44" width="200"></td>
+<td>
+<p><img class="img-rounded" src="sotm_files/mysociety_logo.png" alt="mysociety_logo.png" height="65" width="200"></p>
+</td>
+<td>&nbsp;<img class="img-rounded" style="float: right; margin: -10px 10px;" src="sotm_files/mapbox-logo-128.png" alt="mapbox-logo-128.png" height="128" width="128"></td>
+</tr>
+<tr>
+<td><img class="img-rounded" style="vertical-align: top; margin-top: -30px; margin-left: 72px;" src="sotm_files/ito_p.png" alt="ito_p.png" height="44" width="59"></td>
+<td><img class="img-rounded" style="vertical-align: top; margin-top: -36px;" src="sotm_files/OpenCage_Logo.png" alt="OpenCage_Logo.png" height="141" width="200"></td>
+<td><img class="img-rounded" style="vertical-align: top; margin-top: -30px;" src="sotm_files/e0b9d212faaec309392b7a022a4adffd_f66.jpg" alt="1Spatial_Colour_RGB_NOSTRAPLINE2.jpg" height="41" width="180">&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p><img class="img-rounded" style="vertical-align: top; margin-left: 80px;" src="sotm_files/civico_normal.jpg" alt="civico_normal.jpg" height="48" width="48"></p>
+</td>
+<td>&nbsp;<img class="img-rounded" style="vertical-align: top; margin-top: -32px;" src="sotm_files/8a99efe57658776f095568342aca2cf2_f64.jpg" alt="MapActionLogoRGB-Blue.jpg" height="127" width="180"></td>
+<td>&nbsp;<img class="img-rounded" src="sotm_files/bytemark_logo_179_x_14.png" alt="bytemark_logo_179_x_14.png" height="14" width="179"></td>
+</tr>
+</tbody>
+</table></div></div>						</div>
+						<div class="span3 sidebar">
+					<h3>6-8 September 2013</h3>
+<p><span style="color: #c0c0c0;"><span style="font-size: medium; color: #000000;">(Friday-Sunday)<br>Monday 9 September was Hack Day</span><span style="color: #000000;"><span style="color: #000000;"><strong><br></strong></span></span></span></p><p class="western" style="margin-bottom: 3.53mm;">SotM 2013 was at <span style="font-family: Arial,serif;">Aston University Business School Conference Centre, Aston Street, Birmingham, England. <a href="http://web.archive.org/web/20150324203723/http://www.openstreetmap.org/?lat=52.48606&amp;lon=-1.88797&amp;zoom=17&amp;layers=M" target="_blank">View on OSM</a></span></p>
+<p class="western" style="margin-bottom: 3.53mm;"><span style="font-family: Arial,serif;">The official twitter hashtag was <strong>#sotm13</strong><br></span></p>	<div id="blockStyle525Sidebar38" class="box box-light ccm-block-styles">
+
+<div class="ccm-jereme-tweetcrete">
+  <div class="ccm-jereme-tweetcrete-timeline">
+      </div>
+  
+  
+  <div class="ccm-jereme-tweetcrete-timeline">
+    <ul>
+                        <li>
+                          <div class="ccm-jereme-tweet-avatar">
+                <img class="img-rounded" src="sotm_files/kxDFETGN_normal.jpeg">
+              </div>
+                                    <div class="ccm-jereme-tweet-text">Minutes from our recent meetings are now online: <a href="http://web.archive.org/web/20150324203723/http://t.co/wyaj9TLik9" target="_blank">http://t.co/wyaj9TLik9</a> Thanks to <a href="http://web.archive.org/web/20150324203723/http://twitter.com/gregorymarler" target="_blank">@gregorymarler</a> for these. <a href="http://web.archive.org/web/20150324203723/https://twitter.com/search?q=%23OpenStreetMap&amp;src=tweetcrete" target="_blank">#OpenStreetMap</a>                              <span class="posted-by">
+                  via @sotm                </span>
+                          </div>
+            <div style="clear:both;"></div>
+          </li>
+                  <li>
+                          <div class="ccm-jereme-tweet-avatar">
+                <img class="img-rounded" src="sotm_files/kxDFETGN_normal.jpeg">
+              </div>
+                                    <div class="ccm-jereme-tweet-text">The call for venues for <a href="http://web.archive.org/web/20150324203723/https://twitter.com/search?q=%23OpenStreetMap&amp;src=tweetcrete" target="_blank">#OpenStreetMap</a>'s State of the Map 2016 is now open! Please contact us if you need help. <a href="http://web.archive.org/web/20150324203723/http://t.co/9fslRfpZRg" target="_blank">http://t.co/9fslRfpZRg</a>                              <span class="posted-by">
+                  via @sotm                </span>
+                          </div>
+            <div style="clear:both;"></div>
+          </li>
+                  <li>
+                          <div class="ccm-jereme-tweet-avatar">
+                <img class="img-rounded" src="sotm_files/kxDFETGN_normal.jpeg">
+              </div>
+                                    <div class="ccm-jereme-tweet-text">For
+ SotM 2016: Host cities can propose a conference date anywhere within 
+2016 - perhaps linked with other exciting events in your city <a href="http://web.archive.org/web/20150324203723/https://twitter.com/search?q=%23osm&amp;src=tweetcrete" target="_blank">#osm</a>                              <span class="posted-by">
+                  via @sotm                </span>
+                          </div>
+            <div style="clear:both;"></div>
+          </li>
+                  <li>
+                          <div class="ccm-jereme-tweet-avatar">
+                <img class="img-rounded" src="sotm_files/kxDFETGN_normal.jpeg">
+              </div>
+                                    <div class="ccm-jereme-tweet-text">The
+ 'Call for Venues' for SotM 2016 will be opening soon. Please start 
+thinking about possible host cities, both big and small.                
+              <span class="posted-by">
+                  via @sotm                </span>
+                          </div>
+            <div style="clear:both;"></div>
+          </li>
+                  <li>
+                          <div class="ccm-jereme-tweet-avatar">
+                <img class="img-rounded" src="sotm_files/kxDFETGN_normal.jpeg">
+              </div>
+                                    <div class="ccm-jereme-tweet-text">Although we are taking a pause in 2015 there are still plenty of other <a href="http://web.archive.org/web/20150324203723/http://twitter.com/OpenStreetMap" target="_blank">@OpenStreetMap</a> events this year: <a href="http://web.archive.org/web/20150324203723/https://t.co/ovBqlB4diq" target="_blank">https://t.co/ovBqlB4diq</a>                              <span class="posted-by">
+                  via @sotm                </span>
+                          </div>
+            <div style="clear:both;"></div>
+          </li>
+                  <li>
+                          <div class="ccm-jereme-tweet-avatar">
+                <img class="img-rounded" src="sotm_files/kxDFETGN_normal.jpeg">
+              </div>
+                                    <div class="ccm-jereme-tweet-text">RT <a href="http://web.archive.org/web/20150324203723/http://twitter.com/OpenStreetMapAR" target="_blank">@OpenStreetMapAR</a>: Ayudanos a crear el mapa más preciso del <a href="http://web.archive.org/web/20150324203723/https://twitter.com/search?q=%23Amazonas&amp;src=tweetcrete" target="_blank">#Amazonas</a> con <a href="http://web.archive.org/web/20150324203723/http://twitter.com/Mapazonia" target="_blank">@Mapazonia</a> y <a href="http://web.archive.org/web/20150324203723/http://twitter.com/openstreetmap" target="_blank">@openstreetmap</a> . Visita <a href="http://web.archive.org/web/20150324203723/http://t.co/D2tIB5SMgE" target="_blank">http://t.co/D2tIB5SMgE</a> htt…                              <span class="posted-by">
+                  via @sotm                </span>
+                          </div>
+            <div style="clear:both;"></div>
+          </li>
+                  <li>
+                          <div class="ccm-jereme-tweet-avatar">
+                <img class="img-rounded" src="sotm_files/kxDFETGN_normal.jpeg">
+              </div>
+                                    <div class="ccm-jereme-tweet-text">RT <a href="http://web.archive.org/web/20150324203723/http://twitter.com/zalitoar" target="_blank">@zalitoar</a>: Video de la reunión de comunidades de Latinoamerica en el <a href="http://web.archive.org/web/20150324203723/https://twitter.com/search?q=%23sotm14&amp;src=tweetcrete" target="_blank">#sotm14</a> <a href="http://web.archive.org/web/20150324203723/https://twitter.com/search?q=%23sotm2014&amp;src=tweetcrete" target="_blank">#sotm2014</a> <a href="http://web.archive.org/web/20150324203723/http://t.co/imAzRggXVr" target="_blank">http://t.co/imAzRggXVr</a> <a href="http://web.archive.org/web/20150324203723/http://twitter.com/OpenStreetMapAR" target="_blank">@OpenStreetMapAR</a> <a href="http://web.archive.org/web/20150324203723/http://twitter.com/sotm" target="_blank">@sotm</a>                              <span class="posted-by">
+                  via @sotm                </span>
+                          </div>
+            <div style="clear:both;"></div>
+          </li>
+                  </ul>
+  </div>
+</div>  
+</div>						</div>
+					</div>				
+									</div>
+					<footer>
+		<div class="container">		
+			<div class="row-fluid">
+				<div class="span6">
+					<!-- GLOBAL Footer -->
+					
+<div id="HTMLBlock80" class="HTMLBlock">
+Copyright © OpenStreetMap Foundation 2013</div>				</div>
+				<div class="span6">
+					<!-- GLOBAL Footer Menu - custom template: Heytheme Footer Menu -->
+					
+<div id="HTMLBlock81" class="HTMLBlock">
+<div style="text-align: right;">
+<a href="http://web.archive.org/web/20150324203723/http://2013.stateofthemap.org/login/">editor login</a>
+<br>
+<small>
+<strong>Cookies:</strong> this website stores a cookie in your browser, only for as long as you use the site.<br>By continuing to use the site, we deem you to consent to this.</small>
+</div></div>				</div>
+			</div>
+		</div>
+    </footer>
+	
+			
+			</div>
+		</div>
+		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39490960-1']);
+  _gaq.push(['_setDomainName', 'stateofthemap.org']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? '/web/20150324203723/https://ssl' : '/web/20150324203723/http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>	
+
+
+
+
+
+
+</body></html>
+<!--
+     FILE ARCHIVED ON 20:37:23 Mar 24, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:26:38 May 3, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->

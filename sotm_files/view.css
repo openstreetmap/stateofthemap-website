@@ -1,0 +1,68 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 4:58:08 Apr 7, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:26:40 May 3, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+.ccm-jereme-tweetcrete-timeline ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+
+.ccm-jereme-tweetcrete-timeline ul li {
+  padding: 0;
+  margin: 0 0 1em 0;
+}
+
+.ccm-jereme-tweet-username {
+  font: normal 18px/23px Helvetica Neue, Helvetica, Arial, san-serif;
+  margin: 0 0 5px 0;
+}
+
+.ccm-jereme-tweet-time {
+  font-style: italic;
+  font-size: 10px;
+}
+
+.ccm-jereme-tweet-avatar {
+  float: left;
+  margin: 0 5px 5px 0;
+}
+
+.ccm-jereme-tweet-follow-link {
+  background: transparent url(/web/20150407045808/http://2013.stateofthemap.org/packages/jereme_tweetcrete/blocks/jereme_tweetcrete/images/follow-button.png) no-repeat top left;
+  display: block;
+  float: left;
+  width: 68px;
+  height: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.ccm-jereme-tweet-follow-link,
+.ccm-jereme-tweet-follow-link:hover,
+.ccm-jereme-tweet-follow-link:visited {
+  font: normal 11px/19px Helvetica Neue, Helvetica, Arial, san-serif;
+  color: #fff;
+}
+
+.ccm-jereme-tweet-follow-link:hover {
+  background-position: bottom left;
+}
+
+.ccm-jereme-tweetcrete-timeline-elements {
+  clear: both;
+  padding: 10px 0;
+}
+
+.ccm-jereme-tweetcrete-timeline-elements h4 {
+  margin-bottom: 3px;
+}
