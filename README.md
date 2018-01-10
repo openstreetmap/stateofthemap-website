@@ -4,6 +4,7 @@ This repository contains various resources used for State of the Map
 web sites. There are a number of branches:
 
 * **chooser** source for [stateofthemap.org](https://stateofthemap.org/)
+* **site-2013** source for [2013.stateofthemap.org](https://2013.stateofthemap.org/)
 * **resources-2012** additional resources for [2012.stateofthemap.org](https://2012.stateofthemap.org/)
 * **resources-2011** additional resources for [2011.stateofthemap.org](https://2011.stateofthemap.org/)
 * **resources-2010** additional resources for [2010.stateofthemap.org](https://2010.stateofthemap.org/)
