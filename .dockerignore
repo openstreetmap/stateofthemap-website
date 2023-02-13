@@ -1,0 +1,11 @@
+# Ignore git metadata folder
+.git/
+.github/
+
+# Ignore docker related files
+Dockerfile*
+docker-compose.*
+.dockerignore
+.gitignore
+
+.editorconfig

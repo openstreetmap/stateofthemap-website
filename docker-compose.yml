@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+
+  app:
+    build:
+      context: .
+    ports:
+      - 8080:8080
