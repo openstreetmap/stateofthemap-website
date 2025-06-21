@@ -1,5 +1,5 @@
 # https://github.com/nginxinc/docker-nginx-unprivileged
-FROM ghcr.io/nginxinc/nginx-unprivileged:stable-alpine as webserver
+FROM ghcr.io/nginxinc/nginx-unprivileged:stable-alpine AS webserver
 
 RUN echo "absolute_redirect off;" >/etc/nginx/conf.d/no-absolute_redirect.conf
 
