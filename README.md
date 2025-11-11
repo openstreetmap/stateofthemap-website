@@ -22,6 +22,9 @@ Replace `<branch>` with the name of the branch you want to clone.
 
 ## Other State of the Map website repositories
 
+* https://github.com/openstreetmap/stateofthemap-2026
+* https://github.com/openstreetmap/stateofthemap-2025
+* https://github.com/openstreetmap/stateofthemap-2024
 * https://github.com/openstreetmap/stateofthemap-2022
 * https://github.com/openstreetmap/stateofthemap-2021
 * https://github.com/openstreetmap/stateofthemap-2020
